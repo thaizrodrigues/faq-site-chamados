@@ -1,0 +1,15 @@
+[
+   {
+      "titulo":"BT - [BT/FR][TODAS] - DÚVIDAS METRICAS DE RENOVAÇÃO (#1016501053)",
+      "pergunta":"Como funciona o filtro de cancelamento por troca de contrato na tela de cancelamentos do sistema?  \n",
+      "resposta":" O filtro de cancelamento por troca de contrato na tela de cancelamentos está relacionado ao motivo de cancelamento por troca de contrato ao selecionar Cancelar contrato. As trocas de contrato feitas ao entrar no contrato - trocar contrato não geram cancelamentos, elas expiram o contrato anterior e geram um novo contrato.  \n",
+      "tags":[
+         "Sistema EVO",
+         " Cancelamento",
+         " Troca de contrato",
+         " Filtro."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95209",
+      "squad":"W12\\Squad Member and Operations"
+   }
+]
