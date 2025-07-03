@@ -1,1351 +1,1351 @@
 [
-    {
-        "titulo": "Verificação: Gerencial x Produtos | 13555",
-        "pergunta": "Por que houve uma alteração no estoque de um produto para uma data anterior à venda?  \n",
-        "resposta": " A alteração no estoque de um produto para uma data anterior à venda pode ter ocorrido devido a uma ação manual realizada pelo suporte Evo. É importante verificar a movimentação no banco de dados para garantir a consistência das informações.  \n",
-        "tags": [
-            "Estoque",
-            " Movimentação",
-            " Suporte Evo",
-            " Banco de dados"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/91991",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "VERIFICAÇÃO LATAM | CONTRATO FAMILIA X DIVERGENCIA VALORES",
-        "pergunta": "Como funciona a configuração de desconto dos dependentes no contrato família?  \n",
-        "resposta": " A configuração de desconto dos dependentes no contrato família significa que todos os dependentes a partir do primeiro terão o desconto configurado. Para que apenas o primeiro dependente tenha 100% de desconto, é necessário inserir a configuração de Número 2 e % de desconto 0.  \n",
-        "tags": [
-            "Configuração de desconto",
-            " Contrato família",
-            " Dependententes",
-            " Desconto."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92179",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Clube de recompensas X Indicações",
-        "pergunta": "Por que um cliente indicado não pontuou no Clube de Recompensas?  \n",
-        "resposta": " O cliente indicado não pontuou no Clube de Recompensas porque a indicação foi feita quando ele já era cliente, e a regra de pontuação é válida apenas para indicações feitas enquanto o cliente ainda é prospect. É necessário validar a regra com o produto.  \n",
-        "tags": [
-            "Clube de Recompensas",
-            " Indicações",
-            " Pontuação",
-            " Regras."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92264",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "Verificação Latam: Conversão x Campos Obrigatórios | 13694",
-        "pergunta": "Como são definidos os campos obrigatórios no formulário de conversão do sistema EVO?  \n",
-        "resposta": " Os campos obrigatórios no formulário de conversão do sistema EVO são obtidos da aba \"Cliente\" na tela \"Configurações >> Campos obrigatórios\". Eles são exibidos de acordo com as configurações de cada academia.  \n",
-        "tags": [
-            "Configurações",
-            " Campos obrigatórios",
-            " Formulário de conversão."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92294",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Emissão de nota fiscal por competência X Crédito de venda | 13721",
-        "pergunta": "Como o sistema EVO calcula a emissão de notas fiscais por competência em relação aos recebimentos da venda?  \n",
-        "resposta": " O cálculo de notas para emissão por competência no sistema EVO considera o valor total da venda e a vigência do contrato, gerando parcelas de acordo com esses dados. Independentemente da forma de recebimento da venda, o comportamento do cálculo será o mesmo.  \n",
-        "tags": [
-            "Emissão de notas",
-            " Competência",
-            " Recebimentos",
-            " Vendas",
-            " Sistema EVO."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92517",
-        "squad": "W12\\Squad Accounting"
-    },
-    {
-        "titulo": "Verificação: Gerencial x Cobranças | 13743",
-        "pergunta": "Como identificar transações realizadas pelo sistema Evo que não aparecem na aba de recorrências?  \n",
-        "resposta": " Para identificar transações realizadas pelo sistema Evo que não aparecem na aba de recorrências, verifique se as transações foram feitas manualmente no sistema. A aba de recorrências mostra apenas transações automáticas feitas pelo job de recorrências.  \n",
-        "tags": [
-            "Identificação",
-            " Transações",
-            " Recorrências",
-            " Sistema Evo"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92584",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Boleto X Baixa automática - Ticket Intercom 13765",
-        "pergunta": "Como identificar se um boleto foi pago ou apenas agendado para pagamento no sistema?  \n",
-        "resposta": " Para identificar se um boleto foi pago ou apenas agendado para pagamento, verifique se o boleto consta como pago no PjBank. Caso o comprovante enviado seja de agendamento de pagamento, significa que o pagamento ainda não foi efetuado e será realizado na data agendada, desde que haja saldo na conta.  \n",
-        "tags": [
-            "Boleto",
-            " Pagamento",
-            " Agendamento",
-            " PjBank"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92606",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Alterar data de vencimento X Permissão | 13774",
-        "pergunta": "Como posso alterar a data de vencimento de um contrato no sistema?  \n",
-        "resposta": " Para alterar a data de vencimento de um contrato no sistema, é necessário que o funcionário possua a permissão de creditar dias. Ao alocar a data de cobrança para um dia posterior, como do dia 08 para o dia 10, é preciso adicionar dois dias ao contrato. Certifique-se de que a permissão necessária esteja aplicada antes de prosseguir com a alteração.  \n",
-        "tags": [
-            "Contrato",
-            " Data de vencimento",
-            " Permissão",
-            " Sistema ERP Evo."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92610",
-        "squad": "W12\\Squad Accounting"
-    },
-    {
-        "titulo": "Verificação: Link de pagamento X API | 13727",
-        "pergunta": "Como são realizados os disparos dos e-mails de recibo e ParQ no momento da venda no sistema EVO?  \n",
-        "resposta": " Os disparos dos e-mails de recibo e ParQ são realizados no momento da venda, gerando um saldo devedor e enviando por e-mail o recibo. Esse é o fluxo esperado no sistema EVO.  \n",
-        "tags": [
-            "EVO",
-            " e-mails",
-            " vendas",
-            " recibo",
-            " ParQ"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92619",
-        "squad": "W12\\Squad Member Experience"
-    },
-    {
-        "titulo": "Verificação: Venda Stone connect x não finalizada no Evo - Ticket Intercom 13785",
-        "pergunta": "Como proceder quando uma transação não é encontrada no Evo e na API da Stone Connect?  \n",
-        "resposta": " Nos casos em que não existe registro no Evo e na API da Stone Connect, significa que a transação foi feita fora do terminal integrado. Nesses casos, é necessário realizar o lançamento manual das informações no recebimento. Quando esse lançamento manual não é feito, as informações da transação não ficam registradas no Evo e na API, que só retorna transações feitas pelo terminal integrado Stone Connect.\n",
-        "tags": [
-            "Integração",
-            " Transação",
-            " Stone Connect",
-            " Terminal Integrado",
-            " Lançamento Manual."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92629",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Integração x Estacionamento | 13798",
-        "pergunta": "Como corrigir o erro de integração no Estacionamento no sistema EVO?  \n",
-        "resposta": " Certifique-se de que o arquivo /clienteevo.txt está presente no final da URL de integração. Caso contrário, adicione o arquivo e verifique se a integração é realizada corretamente.  \n",
-        "tags": [
-            "Integração",
-            " Estacionamento",
-            " URL",
-            " Erro",
-            " Correção"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92671",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Estacionamento x CPF inválido | 13806",
-        "pergunta": "Como posso garantir que o arquivo atualizado seja enviado ao servidor no sistema EVO?  \n",
-        "resposta": " Certifique-se de que o nome do arquivo esteja corretamente inserido na URL do FTP para que o arquivo atualizado seja enviado ao servidor.  \n",
-        "tags": [
-            "Atualização de arquivos",
-            " FTP",
-            " Servidor",
-            " Sistema EVO."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/92674",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Prescrição de Treinos x IOS X Acesso evo | 13850",
-        "pergunta": "Como acessar a prescrição de treinos no EVO Web em dispositivos mobile?  \n",
-        "resposta": " O EVO Web não foi totalmente otimizado para dispositivos mobile, o que pode impactar a experiência do usuário ao acessar a tela de prescrição de treinos. Recomendamos que o cliente utilize o EVO APP para uma melhor experiência nesse caso.  \n",
-        "tags": [
-            "EVO Web",
-            " dispositivos mobile",
-            " prescrição de treinos",
-            " EVO APP"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/93340",
-        "squad": "W12\\Squad Training and Health"
-    },
-    {
-        "titulo": "Verificação: Totalpass X Nenhum checkin Totalpass foi encontrado para esse aluno | 13924",
-        "pergunta": "Por que recebo a mensagem \"Nenhum check-in encontrado para esse aluno\"?  \n",
-        "resposta": " Essa mensagem ocorre quando não encontramos motivos para liberar o aluno, o que pode acontecer quando a academia valida manualmente o check-in ou quando o aluno não tem mais check-ins disponíveis para uso.  \n",
-        "tags": [
-            "Totalpass",
-            " check-in",
-            " validação",
-            " mensagem de erro"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94115",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Segmentação x Clientes | BioRitmo 2501-084766",
-        "pergunta": "Como posso visualizar todos os clientes no sistema EVO, mesmo sem a permissão de visualizar todas as carteiras?  \n",
-        "resposta": " Para visualizar todos os clientes no sistema EVO, mesmo sem a permissão de visualizar todas as carteiras, é necessário ter a permissão de visualizar todos os alunos. Dessa forma, o funcionário poderá ver todos os alunos, independentemente de ser consultor deles ou não.  \n",
-        "tags": [
-            "Permissões",
-            " Clientes",
-            " Sistema EVO"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94242",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "VERIFICAÇÃO | OPORTUNIDADES X CONVERTIDAS INDEVIDAMENTE",
-        "pergunta": "Por que alguns prospects foram convertidos indevidamente em vendas no sistema EVO?\n",
-        "resposta": " Alguns prospects foram convertidos indevidamente em vendas no sistema EVO porque fizeram o pagamento com cartão. No EVO, prospects não podem ter cartão, então a conversão é feita na venda para que ela seja realizada. Os prospects que não foram convertidos fizeram o pagamento por outros métodos.\n",
-        "tags": [
-            "Conversão",
-            " Prospect",
-            " Venda",
-            " Pagamento",
-            " EVO."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94466",
-        "squad": "W12\\Squad Member Experience"
-    },
-    {
-        "titulo": "Verificação: Venda x Forma de pagamento | 14000",
-        "pergunta": "Como verificar se a unidade possui o PIX PJ Bank ativo?  \n",
-        "resposta": " Para verificar se a unidade possui o PIX PJ Bank ativo, basta acessar as configurações da unidade no sistema e verificar as formas de pagamento disponíveis. Se o PIX PJ Bank estiver ativo, ele estará listado como uma das opções de forma de pagamento.  \n",
-        "tags": [
-            "Configurações",
-            " Unidade",
-            " PIX PJ Bank",
-            " Formas de pagamento"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94527",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Exercícios X Edição | 14078",
-        "pergunta": "Como posso adicionar um exercício novo em vez de editar um exercício existente no sistema?  \n",
-        "resposta": " No sistema, é possível adicionar um exercício novo ao invés de editar um exercício existente. Para isso, ao tentar editar um exercício já existente, é necessário adicionar um novo exercício, pois a substituição do exercício anterior não é permitida.  \n",
-        "tags": [
-            "Sistema ERP Evo",
-            " Adicionar exercício",
-            " Editar exercício",
-            " Substituição de exercício."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94546",
-        "squad": "W12\\Squad Training and Health"
-    },
-    {
-        "titulo": "Verificação: Treinos X Exportação indevida | 14092",
-        "pergunta": "Como posso verificar os funcionários que realizaram migrações no sistema EVO?  \n",
-        "resposta": " Você pode consultar os funcionários que realizaram migrações acessando o ADM Geral. Os funcionários responsáveis pela migração são da filial 0 do EVO, portanto, é necessário verificar com quem tem acesso ao ADM Geral para identificar quem realizou a migração. Lembre-se que não é possível desfazer uma migração feita pelos próprios funcionários.\n",
-        "tags": [
-            "Consulta",
-            " Funcionários",
-            " Migrações",
-            " ADM Geral."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94591",
-        "squad": "W12\\Squad Training and Health"
-    },
-    {
-        "titulo": "Verificação: Valor recebido x Valor do contrato | 14126",
-        "pergunta": "Como posso exibir o valor do contrato sem descontos no sistema?  \n",
-        "resposta": " Para exibir o valor do contrato sem descontos, utilize a tag [VALOR_CONTRATO_SEM_DESCONTO]. Dessa forma, apenas o valor original do contrato será informado.  \n",
-        "tags": [
-            "FAQ",
-            " sistema EVO",
-            " tag de contrato",
-            " descontos"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94729",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Atividades Inativas X Aplicativo | 14123",
-        "pergunta": "Por que algumas atividades inativas não aparecem no aplicativo?  \n",
-        "resposta": " As atividades inativas não aparecem no aplicativo porque, por estarem inativas, não devem ser visualizadas pelo aluno.  \n",
-        "tags": [
-            "Atividades inativas",
-            " Aplicativo",
-            " Visualização."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/94732",
-        "squad": "W12\\Squad FITI"
-    },
-    {
-        "titulo": "BT - [BT/FR][TODAS] - DÚVIDAS METRICAS DE RENOVAÇÃO (#1016501053)",
-        "pergunta": "Como funciona o filtro de cancelamento por troca de contrato na tela de cancelamentos do sistema?  \n",
-        "resposta": " O filtro de cancelamento por troca de contrato na tela de cancelamentos está relacionado ao motivo de cancelamento por troca de contrato ao selecionar Cancelar contrato. As trocas de contrato feitas ao entrar no contrato - trocar contrato não geram cancelamentos, elas expiram o contrato anterior e geram um novo contrato.  \n",
-        "tags": [
-            "Sistema EVO",
-            " Cancelamento",
-            " Troca de contrato",
-            " Filtro."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95209",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "VERIFICAÇÃO | FITCOINS X ERRO NA VENDA",
-        "pergunta": "Por que recebo um erro ao tentar realizar a venda do plano de 4 classes no sistema?  \n",
-        "resposta": " O erro ocorre porque o contrato 4 CLASES no clube de recompensa está inativo, fazendo com que o que é listado na venda não corresponda ao que está no clube. Para resolver, verifique se o contrato está ativo e se o cliente possui a quantidade necessária de fitcoins para a compra.  \n",
-        "tags": [
-            "FAQ",
-            " erro",
-            " venda",
-            " contrato inativo",
-            " fitcoins."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95281",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "Verificação: Grade X Quantidade de participantes | 17281",
-        "pergunta": "Por que a grade de quantidade de participantes fica zerada após a finalização da aula?  \n",
-        "resposta": " A grade de quantidade de participantes fica zerada após a finalização da aula porque o valor do modal é a contagem de quantas pessoas estavam dentro da aula antes de ser finalizada. Portanto, se a aula foi finalizada com 0 participantes, a quantidade será exibida como zero na atividade.  \n",
-        "tags": [
-            "Sistema ERP Evo",
-            " Quantidade de participantes",
-            " Finalização da aula"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95300",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "SOLICITAÇÃO | REGISTRO CHECK-IN X QR CODE",
-        "pergunta": "Como funciona o registro de check-in através do QR Code no sistema EVO?  \n",
-        "resposta": " O registro de check-in através do QR Code no sistema EVO é destinado exclusivamente para acesso à área do cliente. A opção de check-in no autoatendimento está desabilitada.  \n",
-        "tags": [
-            "Check-in",
-            " QR Code",
-            " EVO",
-            " Cliente",
-            " Autoatendimento"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95347",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "VERIFICAÇÃO | EXCLUSÃO DE EXERCÍCIOS X ERRO",
-        "pergunta": "Como posso excluir um exercício mesmo que ele esteja vinculado a treinos antigos?  \n",
-        "resposta": " Para excluir um exercício mesmo que ele esteja vinculado a treinos antigos, é necessário aguardar a implementação de uma nova alteração que permitirá essa ação. Atualmente, se o treino for excluído com algum exercício vinculado, será exibida uma mensagem de erro.  \n",
-        "tags": [
-            "Exclusão de exercício",
-            " Treinos antigos",
-            " Vínculo de exercícios"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95350",
-        "squad": "W12\\Squad Training and Health"
-    },
-    {
-        "titulo": "Verificação: Total Pass x Log | BioRitmo I2501-095204",
-        "pergunta": "Como funciona o novo sistema de check-in da TotalPass no Evo?  \n",
-        "resposta": " O funcionamento do novo sistema de check-in da TotalPass é semelhante ao do Gympass. O usuário precisa fazer o check-in, que será enviado para o webhook e validado automaticamente. Para clientes TotalPass, a busca do check-in no banco é feita de forma semelhante à do Gympass, por isso pode ocorrer o retorno de check-in TotalPass não encontrado. Esse é o funcionamento padrão da nova estrutura.\n",
-        "tags": [
-            "TotalPass",
-            " check-in",
-            " Gympass",
-            " webhook",
-            " estrutura."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95353",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Catraca: Teclado da catraca Xplite sem funcionar | 14322",
-        "pergunta": "Como posso verificar se o teclado da catraca Xplite está enviando informações para o sistema corretamente?  \n",
-        "resposta": " Para verificar se o teclado da catraca Xplite está enviando informações para o sistema corretamente, você pode realizar um teste utilizando o Free Serial Analyzer ou qualquer outro sniffer serial. Desta forma, será possível visualizar as informações que estão trafegando pela porta serial. Certifique-se também de verificar a ligação dos cabos para garantir que o TX e RX da serial estejam funcionando corretamente. Em caso de dúvidas, é recomendado procurar um técnico especializado para auxiliar na verificação.  \n",
-        "tags": [
-            "Catraca Xplite",
-            " teclado",
-            " sistema",
-            " informações",
-            " teste",
-            " porta serial",
-            " cabos",
-            " técnico especializado."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95363",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Falta justificada X permissões | 14293",
-        "pergunta": "Como funciona a justificativa de falta para alunos incluídos em atividades de forma avulsa no sistema?  \n",
-        "resposta": " Quando um aluno é incluído em uma atividade de forma avulsa, mesmo sem um contrato configurado com os mesmos grupos de atividades, o sistema permite inseri-lo na atividade. Ao dar falta para o aluno, a falta é automaticamente justificada, mesmo com a permissão desmarcada. A permissão apenas oculta a opção de justificar a falta para o colaborador. Se a permissão estivesse marcada, o colaborador teria a opção de justificar ou não a falta.  \n",
-        "tags": [
-            "Justificativa de falta",
-            " Alunos avulsos",
-            " Permissões."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95373",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "VERIFICAÇÃO | WELLHUB X CANCELAMENTO INDEVIDO",
-        "pergunta": "Por que o sistema permite o check-in de um cliente mesmo sem registro de entrada no período?  \n",
-        "resposta": " O sistema permite o check-in de um cliente mesmo sem registro de entrada no período, pois essa ação apenas habilita o cliente para entrar e ser liberado.  \n",
-        "tags": [
-            "Sistema EVO",
-            " Check-in",
-            " Registro de entrada",
-            " Cliente"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95544",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Oportunidades x Filtros | 14417",
-        "pergunta": "Qual a diferença entre as telas de segmentação e filtro de prospects e a tela Gerencial de Oportunidades no sistema EVO?  \n",
-        "resposta": " A diferença está no fato de que as telas de segmentação e filtro de prospects contam apenas os prospects não convertidos, enquanto a tela Gerencial de Oportunidades conta os prospects convertidos também, além de separar por origem.  \n",
-        "tags": [
-            "FAQ",
-            " EVO",
-            " Oportunidades",
-            " Filtros",
-            " Segmentação",
-            " Prospects"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/95892",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "Verificação: Controle de entradas X Fluxo de entradas | 14588",
-        "pergunta": "Como posso corrigir a ordem dos horários na tela de Gerencial > Controle de entradas > Dashboard > Fluxo de entradas no sistema EVO?  \n",
-        "resposta": " O sistema não permite a ordenação dos horários, apenas dos dias da semana. Essa limitação já foi abordada em outras tarefas, como a #77675.  \n",
-        "tags": [
-            "Sistema EVO",
-            " Controle de entradas",
-            " Dashboard",
-            " Fluxo de entradas",
-            " Ordenação."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/96385",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Habilitar venda X Financeiro > Adquirentes |",
-        "pergunta": "Como habilitar a opção \"Habilitar venda online\" em Financeiro > Adquirente no sistema EVO?  \n",
-        "resposta": " Para habilitar a opção \"Habilitar venda online\" em Financeiro > Adquirente, é necessário verificar se o cliente possui algum gateway ativo. Caso não haja nenhum gateway ativo, a opção não será exibida.  \n",
-        "tags": [
-            "Configuração",
-            " Vendas online",
-            " Adquirente",
-            " Gateway"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/96489",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Bloqueio x Pendência de assinatura | 14702",
-        "pergunta": "Por que um aluno não foi bloqueado mesmo com a configuração de Bloqueio de acesso por falta de assinatura de contrato?\n",
-        "resposta": " Um aluno pode não ter sido bloqueado devido à opção de Bloquear acesso para clientes inativos estar desabilitada, o sistema não tem motivos para bloqueá-lo, liberando assim todos os clientes, sendo o principal bloqueio baseado nos contratos.\n",
-        "tags": [
-            "Configuração",
-            " Bloqueio de acesso",
-            " Assinatura de contrato",
-            " Clientes inativos."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97223",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: DRE X Movimentação Financeira | 14703",
-        "pergunta": "Por que os valores apresentados nas telas DRE e Movimentação Financeira estão discrepantes?  \n",
-        "resposta": " A divergência nos relatórios ocorre devido à falta de configuração do grupo DRE em alguns centros de receitas. Recomenda-se que o cliente faça essa configuração e verifique novamente os valores. Em caso de dúvidas, estamos à disposição para auxiliar.  \n",
-        "tags": [
-            "Configuração",
-            " DRE",
-            " Movimentação Financeira",
-            " Centro de Receitas"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97225",
-        "squad": "W12\\Squad Accounting"
-    },
-    {
-        "titulo": "Verificação: Finalizar vendas x  Alterar data | 14705",
-        "pergunta": "Como posso alterar a data de vencimento de uma venda sem recebimento no sistema EVO?  \n",
-        "resposta": " Para alterar a data de vencimento de uma venda sem recebimento, é necessário possuir a permissão de \"Débito - alterar vencimento\". Verifique se o colaborador possui essa permissão para realizar a alteração desejada.  \n",
-        "tags": [
-            "Sistema EVO",
-            " Vendas",
-            " Permissões",
-            " Data de Vencimento."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97227",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Configurações x Importar vendas | 14757",
-        "pergunta": "Por que a opção \"Importar vendas\" não está disponível na base da academia modalidade EVO Black?  \n",
-        "resposta": " A opção \"Importar vendas\" está em fase beta de desenvolvimento.  \n",
-        "tags": [
-            "Importar vendas",
-            " EVO Black",
-            " beta",
-            " desenvolvimento"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97347",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Cobranças na recorrência x Financeiro cobranças - Ticket Intercom 14776",
-        "pergunta": "Por que o sistema não está retentando as cobranças de forma automática na recorrência?  \n",
-        "resposta": " O sistema não está retentando as cobranças de forma automática na recorrência porque os saldos devedores dos alunos em questão foram gerados manualmente, e o job de cobrança automática só funciona para saldos originais gerados automaticamente pelo sistema. Quando os saldos originais não são gerados pelo job, as tentativas automáticas de cobrança não são realizadas.  \n",
-        "tags": [
-            "Sistema ERP Evo",
-            " cobranças",
-            " recorrência",
-            " saldos devedores",
-            " cobrança automática."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97365",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Erro x Wellhub | 14758",
-        "pergunta": "Como resolver o erro \"Verifique se o gym-id está correto\" ao tentar habilitar a flag Booking na integração Wellhub da unidade?  \n",
-        "resposta": " Esse erro é retornado quando o Gym-Id do cliente está errado ou quando não está debaixo da nossa chave. Nesse caso, não conseguimos consultar o Gym-Id, pois não nos é permitido realizar a consulta. Portanto, a liberação depende da Wellhub.  \n",
-        "tags": [
-            "Integração",
-            " Erro",
-            " Gym-Id",
-            " Wellhub"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97444",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação:  FITI x Sessão x Reposição |  14802",
-        "pergunta": "Por que a aluna não consegue realizar o cancelamento da atividade \"Funcional\" mesmo com a configuração de falta justificada até 1h antes?  \n",
-        "resposta": " A aluna não consegue realizar o cancelamento da atividade \"Funcional\" agendada no dia 11/02 às 18h porque está tentando sair da aula antes dela ter início, o que interfere em uma configuração específica que está vazia nessa atividade.  \n",
-        "tags": [
-            "Configuração",
-            " Cancelamento",
-            " Atividade",
-            " Aluno",
-            " Início da Aula"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97612",
-        "squad": "W12\\Squad FITI"
-    },
-    {
-        "titulo": "Verificação: Gerencial X Cancelamento X Clientes - Ticket Intercom 14915",
-        "pergunta": "Por que há diferença nos números de cancelamentos entre o relatório \"Clientes\" do Adm geral e o relatório \"Gerencial > cancelamento\" das unidades no sistema EVO?  \n",
-        "resposta": " A diferença nos números de cancelamentos ocorre devido ao fato de que o DASHBOARD contabiliza contratos transferidos. Ao selecionar a opção de contratos transferidos na tela de cancelamentos, os valores serão iguais aos do dashboard. Ambas as telas trazem os mesmos contratos, sendo a única diferença que o dashboard considera transferência de contrato por padrão.  \n",
-        "tags": [
-            "EVO",
-            " relatórios",
-            " cancelamentos",
-            " DASHBOARD",
-            " contratos transferidos."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/97803",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Acesso liberado X Fora do horário permitido | 15037",
-        "pergunta": "Como funciona a configuração de tempo de tolerância de entrada e saída da turma/atividade no sistema EVO?  \n",
-        "resposta": " A configuração de tempo de tolerância de entrada e saída da turma/atividade no sistema EVO vale tanto para 30 minutos antes do início da atividade quanto para 30 minutos após o início da atividade. Portanto, no caso de um agendamento para a aula de 16:00 às 17:00, o horário permitido de entrada/saída na academia é de 15:30 às 17:30.  \n",
-        "tags": [
-            "Configuração",
-            " Tempo de tolerância",
-            " Entrada e saída",
-            " Sistema EVO."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98127",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação - Desconto X Permissão| Bioritmo // I2502-091785",
-        "pergunta": "Por que não consigo aplicar dois descontos recorrentes para um mesmo mês em um contrato no EVO?  \n",
-        "resposta": " No sistema EVO, não é possível aplicar dois descontos recorrentes para um mesmo mês em um contrato. Apenas um desconto recorrente pode ser aplicado a cada mês, não sendo permitida a aplicação de mais de um desconto recorrente no mesmo período.  \n",
-        "tags": [
-            "EVO",
-            " descontos recorrentes",
-            " contratos",
-            " permissões."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98189",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Fiti X Agendamento | 15073",
-        "pergunta": "Por que a aluna consegue agendar atividades fora do grupo vinculado ao seu contrato no sistema Fiti?  \n",
-        "resposta": " A aluna consegue agendar atividades fora do grupo vinculado ao seu contrato no sistema Fiti porque ela possui um serviço comprado que dá direito a realizar essa atividade específica. Certifique-se de verificar a configuração da atividade e a aba de atividades do cliente para entender melhor essa permissão.  \n",
-        "tags": [
-            "Sistema ERP Evo",
-            " Fiti",
-            " agendamento",
-            " contrato",
-            " atividades",
-            " configuração."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98281",
-        "squad": "W12\\Squad FITI"
-    },
-    {
-        "titulo": "Verificação: Acesso ao APP personalizado - Ticket Intercom 15118",
-        "pergunta": "Como configurar um aplicativo personalizado para uma rede/marca no sistema EVO?  \n",
-        "resposta": " Para configurar um aplicativo personalizado para uma rede/marca no sistema EVO, é necessário desvincular a unidade desejada para que seja feito o pedido e a configuração corretamente. Certifique-se de seguir as instruções da tarefa específica relacionada a essa solicitação.  \n",
-        "tags": [
-            "Configuração",
-            " Aplicativo personalizado",
-            " Rede/marca",
-            " Sistema EVO"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98328",
-        "squad": "W12\\Squad FITI"
-    },
-    {
-        "titulo": "Verificação: Total Pass x Página não encontrada | 14877",
-        "pergunta": "Como resolver o problema de página não encontrada ao tentar agendar atividades TotalPass no EVO?  \n",
-        "resposta": " Em casos de dificuldades de agendamento de atividades TotalPass no EVO, é necessário que a TotalPass faça a virada manual do lado deles para cada unidade que habilite o booking via API no sistema. Recomenda-se contatar diretamente a TotalPass para alinhamento.  \n",
-        "tags": [
-            "TotalPass",
-            " agendamento",
-            " EVO",
-            " virada manual",
-            " API."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98373",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Treino Prescrito X Aplicativo - Ticket Intercom 15159",
-        "pergunta": "Por que o treino prescrito para a aluna no aplicativo está diferente do treino Murilo 1 que foi prescrito atualmente?  \n",
-        "resposta": " O problema pode ter ocorrido devido ao ID do cliente logado não ser o mesmo do treino. Isso pode fazer com que o aplicativo mostre informações de outro perfil de aluno. Certifique-se de que o ID do cliente está correto para visualizar o treino prescrito corretamente.  \n",
-        "tags": [
-            "Treino",
-            " Aplicativo",
-            " ID do cliente",
-            " Perfil do aluno."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98396",
-        "squad": "W12\\Squad FITI"
-    },
-    {
-        "titulo": "Latam: Erro X Fitcoins | 15173",
-        "pergunta": "Por que os alunos não estão recebendo os fitcoins da regra de \"Asistencia diária\" mesmo tendo várias entradas registradas?\n",
-        "resposta": " Os alunos só receberão os fitcoins se todos os contratos ativos estiverem com a flag \"Permitir participação no Clube de Recompensa\" habilitada. Caso contrário, mesmo com várias entradas registradas, os fitcoins não serão recebidos.\n",
-        "tags": [
-            "Fitcoins",
-            " Contratos",
-            " Clube de Recompensa",
-            " Configuração."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98454",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "Latam | Verificação: Moeda X Dashboard | 15331",
-        "pergunta": "Por que o dashboard está exibindo a moeda como Dólar ao invés de Peso Uruguaio ($U)?  \n",
-        "resposta": " O problema ocorreu devido ao uso da tradução automática do navegador na página do EVO, o que causou desalinhamentos e traduções incorretas. O símbolo $ também é utilizado pelo peso uruguaio, o que pode ter gerado confusão. A orientação é para que o cliente pare de usar a tradução do navegador nas páginas do sistema.  \n",
-        "tags": [
-            "Dashboard",
-            " Moeda",
-            " Configuração",
-            " Tradução automática",
-            " EVO."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/98797",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Totem x Pix Sitef | 15352",
-        "pergunta": "Por que no autoatendimento do Totem X Pix Sitef só é apresentada a opção de Cartão de Crédito como forma de pagamento?  \n",
-        "resposta": " As formas de pagamentos da integração sitef são exibidas apenas no /totem. O pix sitef está sendo exibido corretamente, lembrando que a forma de pagamento pix não é exibida para contratos recorrentes.  \n",
-        "tags": [
-            "Integração Sitef",
-            " Autoatendimento",
-            " Formas de Pagamento",
-            " Pix Sitef."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99058",
-        "squad": "W12\\Squad Member Experience"
-    },
-    {
-        "titulo": "Verificação: Estorno Pendente x Perfil de Aluno | 15398",
-        "pergunta": "Como atualizar o status de uma transação para \"Aprovado\" no sistema EVO?  \n",
-        "resposta": " Para atualizar o status de uma transação para \"Aprovado\" no sistema EVO, basta clicar no botão de atualização disponível na tela da transação. Isso fará com que o status seja alterado para refletir a situação correta da transação, conforme as melhorias implementadas. Em caso de estorno pendente, a transação voltará para \"Aprovado\" após a atualização. Se necessário, é possível conferir a transação por TIID, NSU e Autorização para garantir a correta identificação.  \n",
-        "tags": [
-            "EVO",
-            " transação",
-            " status",
-            " atualização",
-            " estorno",
-            " Aprovado."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99070",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: CRM 2.0 AUTOMAÇÃO X CHATPRO - 15411",
-        "pergunta": "Como corrigir disparos automáticos de fluxos de outras filiais no CRM 2.0 - Automação?  \n",
-        "resposta": " Para corrigir disparos automáticos de fluxos de outras filiais no CRM 2.0 - Automação, você pode entrar na automação, excluir o fluxo e depois adicioná-lo novamente. Lembre-se de que o número de identificação do fluxo deve ser atualizado manualmente caso haja mudanças nas filiais, pois isso não é atualizado automaticamente.  \n",
-        "tags": [
-            "CRM 2.0",
-            " Automação",
-            " Fluxos",
-            " Filiais",
-            " Correção."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99093",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "Verificação - Erro na conexão API| Bioritmo // I2502-136144",
-        "pergunta": "Como posso verificar se o token de autenticação está sendo enviado corretamente na integração com a API da EVO?\n",
-        "resposta": " Para verificar se o token de autenticação está sendo enviado corretamente na integração com a API da EVO, você pode realizar um teste seguindo o padrão de curl abaixo:\ncurl -i --location 'https://evo-integracao-api.w12app.com.br/api/v1/employees?take=50&skip=0' \\\n-u \"usuario:senha\"\nCertifique-se de substituir \"usuario\" e \"senha\" pelos dados corretos de autenticação. \n",
-        "tags": [
-            "API",
-            " integração",
-            " autenticação",
-            " token",
-            " curl"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99263",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Agregadores X limite de agendamento | 15454",
-        "pergunta": "Por que foi possível realizar agendamentos com mais agregadores do que o limite configurado para a atividade de Treino Funcional no dia 26 de fevereiro?\n\n",
-        "resposta": " A atividade foi configurada corretamente na data e no horário, com o limite de ocupação estabelecido, no entanto, esse limite foi excedido. Este cenário não é o mesmo do chamado anteriormente analisado. Além disso, no dia da atividade, a configuração do limite de ocupação já estava devidamente realizada. Entende-se que se a ocupação no dia da atividade estava com a descrição de 3 agregadores, a quantidade não poderia ter sido excedida.\n",
-        "tags": [
-            "FAQ",
-            " limite de agregadores",
-            " configuração",
-            " atividade",
-            " agendamento."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99264",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Alteração data de inicio do contrato X Permissão | 15488",
-        "pergunta": "Por que a colaboradora conseguiu alterar a data de início do contrato mesmo sem ter a permissão \"Contrato - alterar data\" habilitada em sua permissão?  \n",
-        "resposta": " A permissão \"Contrato - alterar data\" bloqueia apenas a opção de alterar a data de início do contrato após a venda, mas ainda é possível escolher a data do contrato na hora da venda. A permissão de Venda Retroativa é para bloquear a escolha da data da venda, mas também não bloqueia a escolha da data do contrato. Portanto, a colaboradora pôde escolher a data do contrato na hora da venda, mesmo sem a permissão específica habilitada. \n",
-        "tags": [
-            "ERP",
-            " Evo",
-            " permissões",
-            " contrato",
-            " data de início."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99331",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Solicitação: Correção X Pix X Recorrente - Ticket Intercom 15504",
-        "pergunta": "Como posso corrigir a data de início de um contrato no sistema EVO?  \n",
-        "resposta": " Para corrigir a data de início de um contrato no sistema EVO, o cliente pode acessar os detalhes do contrato e realizar a alteração da data desejada.  \n",
-        "tags": [
-            "Contrato",
-            " Data de início",
-            " Sistema EVO",
-            " Alteração"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99364",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação: Evo App x Usuário inativo - Ticket Intercom 15375",
-        "pergunta": "Por que o usuário está recebendo a mensagem de \"usuário inativo\" ao tentar acessar o EVO app, mesmo estando ativo?  \n",
-        "resposta": " O problema ocorreu devido a um conflito de usuários, onde um colaborador tinha acesso a unidades diferentes, causando a mensagem de inatividade. Foi necessário ajustar as permissões para resolver a questão.  \n",
-        "tags": [
-            "EVO",
-            " acesso",
-            " usuário inativo",
-            " permissões",
-            " conflito de usuários"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99431",
-        "squad": "W12\\Squad FITI"
-    },
-    {
-        "titulo": "Verificação: Recebimento Duplicado - Ticket intercom 15367",
-        "pergunta": "Como proceder quando um recebimento de transferência bancária está duplicado no sistema?  \n",
-        "resposta": " Para corrigir um recebimento duplicado de transferência bancária, é necessário cancelar um dos recebimentos e em seguida cancelar o crédito gerado pelo recebimento excedente. Certifique-se de que os recebimentos possuem a mesma data de lançamento e verifique se houve um valor pago excedente que gerou o saldo credor. Em casos assim, é importante analisar se o usuário inseriu um valor a mais no recebimento na tela de vendas, o que pode resultar na duplicação do recebimento. Em nossa base de testes, não identificamos nenhum bug relacionado à duplicação de recebimentos por transferência bancária.  \n",
-        "tags": [
-            "Recebimento",
-            " Transferência Bancária",
-            " Duplicado",
-            " Correção",
-            " Cancelamento."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99451",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Site x Rodapé x Adm Geral | 15525",
-        "pergunta": "Como configurar o rodapé do site no EVO?  \n",
-        "resposta": " O rodapé da página principal da academia é configurado no EVO, dentro de Configurações -> Site. Já o rodapé que aparece nas demais páginas do site são as informações básicas da academia que são configuradas no EVO em Configurações -> Inicial. Lembre-se de que, para a unidade 0 (Adm Geral), essas informações não são configuradas, pois essa unidade é destinada apenas à administração da academia, não para captação de clientes e venda de produtos. Nas demais unidades, como a unidade 1, onde esses dados estão preenchidos, o rodapé aparece com as informações da unidade.  \n",
-        "tags": [
-            "Configuração",
-            " Rodapé",
-            " EVO",
-            " Unidades."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99585",
-        "squad": "W12\\Squad Member Experience"
-    },
-    {
-        "titulo": "Verificação: Chat com Suporte X Erro  - Ticket Intercom 13790",
-        "pergunta": "Como resolver o problema de piscar na janela do chat no sistema EVO?  \n",
-        "resposta": " Para resolver o problema de piscar na janela do chat, é importante verificar se há alguma extensão do navegador causando interferência. Além disso, limpar o cache do navegador e atualizá-lo para a versão mais recente pode ajudar a resolver esse problema. Certifique-se também de que não há nenhum vídeo anexado ao chat, pois isso pode causar instabilidade na exibição.  \n",
-        "tags": [
-            "Chat",
-            " Janela",
-            " Piscar",
-            " Navegador",
-            " Cache."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99601",
-        "squad": "W12\\Squad Tech"
-    },
-    {
-        "titulo": "Verificação: Data de inauguração X Cobrança no momento da venda  - Ticket Intercom 15624",
-        "pergunta": "Por que os alunos estão sendo cobrados no ato da venda, mesmo com a opção \"Permitir nova matrícula sem cobrança no ato da venda\" habilitada nas configurações iniciais?  \n",
-        "resposta": " A cobrança na data de inauguração só acontece se o contrato for Débito Recorrente Mensal S/ Fidelidade. Verifique se o contrato dos alunos em questão é do tipo Débito Recorrente c/ Vigência.  \n",
-        "tags": [
-            "Cobrança",
-            " Configurações",
-            " Contrato",
-            " Débito Recorrente"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99752",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Latam: Cadastro de cartão de débito X Transação online | 15636",
-        "pergunta": "Como cadastrar um cartão de débito para transações online no sistema EVO?  \n",
-        "resposta": " No sistema EVO, atualmente não é possível cadastrar um cartão de débito para transações online. Ao cadastrar um cartão, apenas a opção de crédito está disponível, o que significa que todas as cobranças serão processadas como crédito. Caso haja a necessidade de cadastrar cartões de débito, é possível conversar com o Product Owner para avaliar a possibilidade de utilizar a versão beta para cadastro de cartões de débito.  \n",
-        "tags": [
-            "EVO",
-            " cartão de débito",
-            " transações online",
-            " cadastro",
-            " crédito."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99792",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Contrato sem renovação | 15642",
-        "pergunta": "Por que o contrato não foi renovado devido à restrição de idade?  \n",
-        "resposta": " O contrato não foi renovado devido à restrição de idade porque os alunos tiveram suas datas de nascimento alteradas após a data de renovação do contrato, fazendo com que não se enquadrassem na faixa etária permitida.  \n",
-        "tags": [
-            "FAQ",
-            " contrato",
-            " renovação",
-            " restrição de idade",
-            " alunos"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99832",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação - Saldo devedor X Cancelamento automatico | Bioritmo // I2502-136636",
-        "pergunta": "Como funciona o processo de verificação de saldo devedor e cancelamento automático de contrato no sistema EVO?\n",
-        "resposta": " O sistema realiza a verificação do saldo devedor e o cancelamento automático do contrato com base em um job que analisa se houve pagamento nos últimos 3 meses (data configurável) para contratos renovados. Caso não haja pagamento até a próxima renovação, o contrato será cancelado. A opção de cancelamento automático não está configurada por tempo fixo, mas sim com base nos pagamentos realizados. \n",
-        "tags": [
-            "Sistema EVO",
-            " Saldo devedor",
-            " Cancelamento automático",
-            " Contrato",
-            " Pagamentos."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99842",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação LATAM: Controle de entrada X Cliente acessando mais vezes do que está configurado - Ticket Intercom 15671",
-        "pergunta": "Por que os alunos estão conseguindo acessar a unidade mais de uma vez no dia, mesmo com o plano configurado para 1 acesso diário?  \n",
-        "resposta": " Os alunos estão conseguindo acessar a unidade mais de uma vez no dia porque o controle de acesso por contrato está desabilitado.  \n",
-        "tags": [
-            "Controle de acesso",
-            " Configuração de plano",
-            " Acesso diário",
-            " Desabilitado."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99861",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Vendas X Recebimentos | 15653",
-        "pergunta": "Por que o total de vendas pode ser diferente do total de recebimentos no fechamento do caixa?  \n",
-        "resposta": " O total de vendas pode ser diferente do total de recebimentos devido a vendas ainda não recebidas e vendas parceladas. Além disso, ao realizar uma retirada do caixa, o valor é abatido do totalizador de recebimentos e somado no totalizador de saídas, o que pode gerar diferenças nos valores. É importante frisar com a academia que esses dois totalizadores podem não bater.  \n",
-        "tags": [
-            "FAQ",
-            " EVO",
-            " vendas",
-            " recebimentos",
-            " caixa",
-            " diferença."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99863",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Solicitação: Consulta ao banco de dados X Exclusão de cartão | 15683",
-        "pergunta": "Como funciona a permissão de exclusão de cartão no sistema EVO?  \n",
-        "resposta": " A permissão de exclusão de cartão no sistema EVO permite que o colaborador exclua o único cartão do cliente. Por exemplo, se o cliente tiver 2 cartões e um deles for excluído, os contratos ativos serão vinculados ao outro cartão. No entanto, ao tentar excluir o segundo cartão, o sistema irá barrar com a mensagem \"Este cartão está associado à contratos e recebimentos em recorrência. Para excluí-lo cadastre um novo cartão e faça a associação deste novo cartão ao contrato ativo do cliente.\"  \n",
-        "tags": [
-            "Sistema EVO",
-            " Permissão de exclusão",
-            " Cartão do cliente"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99884",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Solicitação: Análise em banco X Treinos excluídos - Ticket intercom 15690",
-        "pergunta": "Como posso verificar quem está excluindo os treinos no sistema?  \n",
-        "resposta": " Para verificar quem está excluindo os treinos, é possível consultar o log de treinos excluídos. Existe um menu \"Excluídos\" dentro do treino do cliente. Todos os registros de exclusão ficam registrados nesse tela, e é importante orientar o cliente a consultar essa informação quando necessário.  \n",
-        "tags": [
-            "Sistema EVO",
-            " Treinos excluídos",
-            " Log de exclusão."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99892",
-        "squad": "W12\\Squad Training and Health"
-    },
-    {
-        "titulo": "Verificação: Falha no recebimento X Stone Connect - Ticket intercom 15695",
-        "pergunta": "Como proceder quando a venda foi concluída pela maquininha Stone Connect, mas não foi registrada no sistema EVO, ocasionando a exclusão da venda?  \n",
-        "resposta": " Caso a venda tenha sido concluída apenas na maquininha e não tenha sido registrada no sistema EVO, é necessário verificar se o cliente fez o recebimento apenas na maquininha, pois não haverá registro no sistema. Recomenda-se sempre realizar a venda e o recebimento de forma integrada no sistema EVO para evitar exclusões indevidas.  \n",
-        "tags": [
-            "Stone Connect",
-            " venda",
-            " maquininha",
-            " sistema EVO",
-            " exclusão."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/99893",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Solicitação: Política de senhas (#1090054562)",
-        "pergunta": "Quais são as regras para a troca de senha no sistema EVO?  \n",
-        "resposta": " As regras para troca de senha no sistema EVO são: a senha atual precisa ter mais do que 6 dígitos, não pode conter dígitos sequenciais, deve conter números e letras, e não pode ser igual ao usuário.  \n",
-        "tags": [
-            "Política de senhas",
-            " Segurança da informação",
-            " EVO",
-            " Troca de senha"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100017",
-        "squad": "W12\\Squad Tech"
-    },
-    {
-        "titulo": "Solicitação: Atualização Retroativa x Fitcoins | 15716",
-        "pergunta": "Por que alguns alunos não estão tendo os fitcoins computados em seus perfis de forma retroativa?  \n",
-        "resposta": " Alguns alunos não estão tendo os fitcoins computados de forma retroativa porque nenhum contrato foi configurado com a flag que permite a participação no clube de recompensas. Portanto, é necessário configurar o contrato corretamente para que os clientes cumpram os requisitos e possam ganhar os fitcoins.  \n",
-        "tags": [
-            "Configuração",
-            " Fitcoins",
-            " Contrato",
-            " Clube de recompensas."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100050",
-        "squad": "W12\\Squad CRM"
-    },
-    {
-        "titulo": "Verificação: Erro ao alterar conta X PjBank | 15730",
-        "pergunta": "Por que o sistema apresenta a mensagem de erro \"Conta bancária não é válida\" ao tentar alterar a conta bancária vinculada à integração PjBank?  \n",
-        "resposta": " O sistema apresenta essa mensagem de erro porque a conta que o cliente deseja selecionar não está com o código do banco preenchido. Para realizar a troca com sucesso, é necessário preencher os campos de Conta, Código do banco e agência.  \n",
-        "tags": [
-            "Integração PjBank",
-            " Erro",
-            " Conta bancária",
-            " Código do banco",
-            " Agência."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100074",
-        "squad": "W12\\Squad Accounting"
-    },
-    {
-        "titulo": "Solicitação: Relatório de Notas X Emitidas por lançamento | 15789",
-        "pergunta": "Como posso gerar um relatório de notas emitidas nos meses de Novembro e Dezembro com base nos lançamentos que não tiveram cobrança efetiva?  \n",
-        "resposta": " Para gerar o relatório de notas emitidas nos meses de Novembro e Dezembro com base nos lançamentos que não tiveram cobrança efetiva, você pode acessar o menu de relatórios, selecionar a opção de notas emitidas e filtrar pelo período desejado. Certifique-se de que a configuração de cobrança esteja correta para cada lançamento. Em caso de dúvidas, estou à disposição para ajudar.  \n",
-        "tags": [
-            "Relatório",
-            " Notas",
-            " Lançamentos",
-            " Cobrança",
-            " Período."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100189",
-        "squad": "W12\\Squad Accounting"
-    },
-    {
-        "titulo": "Verificação: Matrícula x Grade| 15779",
-        "pergunta": "Como remover uma matrícula de uma atividade na grade de horários no sistema EVO?  \n",
-        "resposta": " Para remover uma matrícula de uma atividade na grade de horários no sistema EVO, é necessário acessar a grade de horários, selecionar a atividade desejada e utilizar a opção de exclusão disponível. Certifique-se de que não há participantes vinculados à atividade antes de tentar remover. Em caso de dúvidas, entre em contato conosco para mais orientações.  \n",
-        "tags": [
-            "Sistema EVO",
-            " matrícula",
-            " grade de horários",
-            " exclusão",
-            " atividade."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100194",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação: Motivo de bloqueio divergente | 15794",
-        "pergunta": "Como identificar o motivo de bloqueio divergente entre a liberação facial e o acesso via teclado na catraca?  \n",
-        "resposta": " Para identificar o motivo de bloqueio divergente entre a liberação facial e o acesso via teclado na catraca, é importante verificar as tentativas anteriores de acesso. Pode ter ocorrido uma tentativa de acesso por facial bloqueada, seguida por uma tentativa de acesso via teclado. Recomenda-se analisar o histórico de acessos para entender melhor a sequência de eventos que levaram ao bloqueio.  \n",
-        "tags": [
-            "FAQ",
-            " bloqueio",
-            " liberação facial",
-            " acesso via teclado",
-            " catraca."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100195",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Latam: Venda Online x Site | 7456",
-        "pergunta": "Por que ao realizar a compra de um plano através do site, a venda é concluída, deixando um plano ativo e gerando um saldo devedor no perfil do aluno?\n",
-        "resposta": " Ao finalizar a venda online com a Transbank, o cartão do cliente precisa ser cadastrado dentro do sistema deles. No site/totem, a venda é concluída sem cadastrar o cartão, gerando saldo devedor. O cliente é redirecionado ao sistema da Transbank para cadastrar o cartão. Se o cliente demorar mais de 5 minutos para finalizar o cadastro, o token gerado pode expirar, resultando em erro ao confirmar o cadastro do cartão.\n",
-        "tags": [
-            "Venda online",
-            " Transbank",
-            " cadastro de cartão",
-            " saldo devedor",
-            " erro de cadastro."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100275",
-        "squad": "W12\\Squad Member Experience"
-    },
-    {
-        "titulo": "Verificação: Controle de entradas x Bloqueio de entrada - Ticket Intercom 15889",
-        "pergunta": "Por que os alunos estão sendo bloqueados no Controle de Acesso mesmo passando na catraca correta do contrato configurado?  \n",
-        "resposta": " O bloqueio ocorre porque a passagem está sendo registrada em uma catraca que não está configurada no contrato. O cliente possui 4 catracas Intelbras com uso do multi catracas e a diferenciação da passagem é feita através do MAC do equipamento informado no comando3 da configuração da catraca. Nesse caso, é necessário revisar os seriais das catracas e informar o valor correto.  \n",
-        "tags": [
-            "Controle de Acesso",
-            " Catracas",
-            " Bloqueio",
-            " Configuração",
-            " Contrato."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100331",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "TÍTULO: PROGRAMA IMPRESSÃO DE TREINO SÓ RECONHECE POR CPF - 15910",
-        "pergunta": "Como posso fazer o programa de impressão de treinos reconhecer o ID do aluno em vez do CPF?  \n",
-        "resposta": " Para que o programa de impressão de treinos reconheça o ID do aluno em vez do CPF, é necessário desabilitar a configuração que faz com que ele olhe para o campo carteirinha. Recomendamos que o cliente passe a utilizar a versão web, pois a versão antiga está em processo de descontinuação.  \n",
-        "tags": [
-            "Impressão de treinos",
-            " ID do aluno",
-            " CPF",
-            " Configuração",
-            " Versão web."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100374",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Kapersky acusando nosso software de Vírus - Ticket Intercom 15933",
-        "pergunta": "Como posso resolver o problema de o Kaspersky acusar nosso software de vírus?  \n",
-        "resposta": " O Kaspersky pode acusar nosso software de vírus devido a comportamentos suspeitos, como desabilitar o firewall do Windows. Para resolver, é possível adicionar o programa na regra de exceções do antivírus. Recomendamos seguir as orientações do próprio Kaspersky para adicionar aplicativos às exclusões.  \n",
-        "tags": [
-            "Kaspersky",
-            " antivírus",
-            " falso positivo",
-            " regra de exceções",
-            " segurança."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100387",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: ALUNOS POR M² X Resumo Gerencial - Ticket Intercom 15928",
-        "pergunta": "Por que mesmo preenchendo a Metragem (m²) no sistema, a informação de alunos por M² não está sendo exibida no Resumo Gerencial?  \n",
-        "resposta": " A tela de resumo gerencial é atualizada no início de cada mês, portanto, caso o cliente altere esse dado, só verá o cálculo no início do próximo mês. Se o cliente preencheu a informação em uma data posterior, como por exemplo 2025-03-11, é necessário aguardar até o próximo mês para visualizar a atualização.  \n",
-        "tags": [
-            "FAQ",
-            " Resumo Gerencial",
-            " Metragem",
-            " Alunos por M²",
-            " Atualização."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100389",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Latam: Erro X Cadastro de cartões | 15994",
-        "pergunta": "Como resolver o erro \"No fue posible registrar la tarjeta\" ao cadastrar um cartão no sistema?  \n",
-        "resposta": " Verifique se as chaves de autenticação estão corretas, pois alterações nas chaves podem causar esse erro. Recomenda-se confirmar as chaves com a academia para evitar problemas de integração.  \n",
-        "tags": [
-            "Cadastro de cartões",
-            " Erro de integração",
-            " Chaves de autenticação."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100500",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Acesso x Erro Inesperado | 16001",
-        "pergunta": "Por que estou recebendo a mensagem de \"Acesso negado\" e \"Erro inesperado\" ao tentar acessar o sistema?  \n",
-        "resposta": " Essa mensagem pode ocorrer devido ao uso de um computador com Windows 7 que não recebe mais atualizações, e o navegador Chrome também não está sendo atualizado. Recomendamos que o cliente teste em um computador mais atualizado para verificar se consegue acessar o sistema corretamente. Após os testes, por favor, nos informe os resultados.  \n",
-        "tags": [
-            "Acesso negado",
-            " Erro inesperado",
-            " Windows 7",
-            " Atualização do navegador."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100503",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Dashboard X Aniversariantes | 16014",
-        "pergunta": "Por que os aniversariantes não estão aparecendo no dashboard da colaboradora?\n",
-        "resposta": " O problema ocorre devido a cadastros duplicados na tabela de funcionários. Os aniversariantes não apareciam porque estavam vinculados a um registro de ID incorreto. Para corrigir, é necessário transferir os alunos para o cadastro correto na tela de Carteiras. É importante evitar cadastros duplicados, pois isso pode causar problemas futuros. Recomenda-se conversar com o cliente e transferir a carteira dos funcionários para o cadastro correto, se necessário.\n",
-        "tags": [
-            "FAQ",
-            " Dashboard",
-            " Aniversariantes",
-            " Cadastros",
-            " Duplicados."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100527",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Treinos vencidos sendo impressos | 16009",
-        "pergunta": "Como evitar que treinos vencidos sejam impressos mesmo sem a opção de \"Manter acesso ao treino inativo mais recente para clientes sem treino prescrito\" habilitada em Configurações?  \n",
-        "resposta": " Para evitar que treinos vencidos sejam impressos, é importante verificar se o cliente está utilizando a nova impressão que faz parte do autoatendimento. As configurações relacionadas a essa funcionalidade podem ser encontradas em uma tela específica. Certifique-se de que as configurações estejam corretas para evitar a impressão de treinos vencidos.  \n",
-        "tags": [
-            "Configurações",
-            " Impressão de Treinos",
-            " Treinos Vencidos",
-            " Autoatendimento."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100529",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Integrações x API | 16051",
-        "pergunta": "Como posso garantir que as respostas obtidas via códigos API estejam retornando com as informações corretas?  \n",
-        "resposta": " Para garantir que as respostas obtidas via códigos API estejam corretas, é importante validar se os campos do contas a receber na API externa de integração estão configurados corretamente. Certifique-se de que o endpoint de recebimentos está sendo utilizado de forma adequada.  \n",
-        "tags": [
-            "API",
-            " integração",
-            " configuração",
-            " endpoint"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100716",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "BT - [LAGOS] Falha na Troca de contrato (#1094382210)",
-        "pergunta": "Como corrigir a situação em que o contrato antigo permanece ativo após a troca de contrato no sistema EVO?  \n",
-        "resposta": " Para corrigir a situação em que o contrato antigo permanece ativo após a troca de contrato, é necessário verificar e alterar o fim do contrato conforme as informações registradas no sistema. Certifique-se de que a data de término do contrato antigo foi ajustada corretamente.  \n",
-        "tags": [
-            "Contrato",
-            " Troca",
-            " EVO",
-            " Correção",
-            " Ativação."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100724",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Bloqueio de alunos Totalpass | 15993",
-        "pergunta": "Por que alunos com contrato Totalpass precisam fazer check-in para acessar, mesmo que antes não fosse necessário?  \n",
-        "resposta": " A necessidade da realização do check-in vem da Totalpass, onde é necessário que o CPF do aluno esteja preenchido no cadastro para que seja possível consultar se ele possui cadastro na Totalpass. Somente através do CPF é possível realizar o vínculo do check-in recebido e liberar corretamente o acesso na catraca. \n",
-        "tags": [
-            "Totalpass",
-            " contrato",
-            " check-in",
-            " CPF",
-            " cadastro."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100729",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Reposições não geradas - Ticket Intercom 16071",
-        "pergunta": "Como configurar a quantidade total de reposição no sistema para que seja gerada uma reposição de aula cancelada?  \n",
-        "resposta": " Para gerar uma reposição no sistema, é necessário configurar a quantidade total de reposição do contrato ou habilitar a opção de reposições ilimitadas. Certifique-se de que essa configuração esteja corretamente ajustada para que as reposições sejam geradas automaticamente.  \n",
-        "tags": [
-            "Configuração",
-            " Reposição",
-            " Aula cancelada",
-            " Sistema EVO"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100736",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação: Erro X Cobranças | 16098",
-        "pergunta": "Por que alguns alunos estão tendo as cobranças recusadas com os motivos \"Customer not found\" e \"Card not found\" mesmo tendo cartão cadastrado em seu perfil?  \n",
-        "resposta": " No dia 06/02/2025 houve uma alteração da conta Pagar.me, realizada pelo suporteevo, o que tornou inválidos todos os tokens de alunos e cartões cadastrados. Por esse motivo, as transações estão retornando como usuário/cartão não existente. Os cartões cadastrados a partir do dia 6 estão vinculados à nova conta, enquanto os cartões cadastrados antes dessa data estão vinculados à conta antiga e não será possível fazer a cobrança. Para resolver, é necessário recadastrar os cartões dos alunos na nova conta ou na conta antiga, dependendo da situação.  \n",
-        "tags": [
-            "Cobranças",
-            " Cartões",
-            " Conta Pagar.me",
-            " Recadastro",
-            " Transações"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100764",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Falta justificada X Fora do horário configurado - Ticket Intercom 16069",
-        "pergunta": "Como funciona a configuração \"Permitir sair da atividade até quanto tempo antes do início\" no sistema EVO?  \n",
-        "resposta": " A configuração \"Permitir sair da atividade até quanto tempo antes do início\" não valida falta ou falta justificada, ela valida a exclusão do aluno da atividade. Ela trabalha em conjunto com a permissão da grade \"Sessão - excluir cliente do agendamento\", habilitando ou desabilitando o botão \"Excluir\" (Ícone de lixeira). O sistema irá habilitar o botão \"Excluir\" se ambas estiverem habilitadas. Se a configuração estiver habilitada e a atividade ultrapassou o limite de saída, mas a permissão estiver desabilitada, o botão será ocultado.  \n",
-        "tags": [
-            "Configuração",
-            " Exclusão",
-            " Permissão",
-            " Sistema EVO."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100770",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação:  Valor do Contrato x Venda |15968",
-        "pergunta": "Por que o valor do contrato no sistema é diferente do valor apresentado na venda do plano?  \n",
-        "resposta": " O valor apresentado na venda do plano está incorreto devido à seleção do contrato errado. É necessário verificar se o contrato correto está sendo selecionado para que o valor seja exibido corretamente.  \n",
-        "tags": [
-            "Valor do contrato",
-            " Venda",
-            " Seleção de contrato",
-            " Valor incorreto."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100820",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Desconto  x Fiticoins | 15971",
-        "pergunta": "Como posso utilizar fitcoins para obter descontos em vendas no sistema EVO?  \n",
-        "resposta": " Atualmente, os fitcoins só podem ser trocados por recompensas e não podem ser utilizados para descontos em vendas.  \n",
-        "tags": [
-            "Fitcoins",
-            " Vendas",
-            " Descontos",
-            " Recompensas"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100855",
-        "squad": "W12\\Squad Member and Operations"
-    },
-    {
-        "titulo": "Verificação: Erro x Conciliação Stone  | 16161",
-        "pergunta": "Como funciona a data de baixa no sistema EVO em relação aos recebimentos antecipados?  \n",
-        "resposta": " A data de baixa no EVO é sempre a data de vencimento do recebimento. Mesmo em casos de antecipação de pagamento, a baixa será realizada na data original de vencimento da parcela. Portanto, mesmo que haja antecipação, a baixa será feita na data prevista inicialmente.  \n",
-        "tags": [
-            "EVO",
-            " baixa de recebimentos",
-            " antecipação de pagamento"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100861",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Utilizar check-in x Atividade na Grade | 16131",
-        "pergunta": "Por que a opção de check-in não está disponível na tela de Atividades na Grade para minha unidade?\n",
-        "resposta": " A opção de check-in na tela de Atividades na Grade só está disponível para faixas pagas. Unidades que utilizam uma faixa específica que não possui diversas funcionalidades habilitadas, incluindo o check-in, não terão acesso a essa funcionalidade.\n",
-        "tags": [
-            "Funcionalidade",
-            " Check-in",
-            " Atividades na Grade",
-            " Unidade",
-            " Faixas pagas"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100864",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação: Matrícula x Perfil de Aluno |  16154",
-        "pergunta": "Por que a aluna pode não ter sido inserida em aulas ao tentar matriculá-la em uma atividade no sistema EVO?  \n",
-        "resposta": "Essas aulas podem já estar finalizadas no momento da matrícula. Mesmo que as aulas finalizadas sejam reabertas, a aluna não será inserida automaticamente. Nesses casos, é necessário agendar uma sessão avulsa para a aluna.  \n",
-        "tags": [
-            "Matrícula",
-            " Aulas",
-            " Sistema EVO",
-            " Sessão Avulsa."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/100867",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação: Erro X Credenciamento Rede | 16173",
-        "pergunta": "Como corrigir o erro \"Não foi possível credenciar com a Mundipagg utilizando as informações preenchidas\" ao tentar homologar com a Rede?  \n",
-        "resposta": " Para corrigir esse problema, é necessário cadastrar as chaves da Pagar.me no Evo. Isso ocorre porque a verificação é realizada olhando se existe chaves cadastradas no Evo, ou seja, se a Pagar.me já está ativada no sistema. Caso não esteja, ele tenta criar o cadastro automaticamente, o que gera o erro mencionado.  \n",
-        "tags": [
-            "FAQ",
-            " Evo",
-            " Credenciamento",
-            " Mundipagg",
-            " Rede",
-            " Homologação."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/101075",
-        "squad": "W12\\Squad Accounting"
-    },
-    {
-        "titulo": "Verificação: Booking Reservado x Presença | 16194",
-        "pergunta": "Por que um aluno pode ter um Booking reservado, mas não constar com presença na grade da atividade?  \n",
-        "resposta": " A falta de presença de um aluno na grade da atividade, mesmo com o Booking reservado, pode ocorrer devido a remoções manuais realizadas pela recepção.  \n",
-        "tags": [
-            "Atendimento",
-            " Booking",
-            " Presença",
-            " Remoção manual."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/101151",
-        "squad": "W12\\Squad Hardware"
-    },
-    {
-        "titulo": "Verificação: Erro API - Ticket Intercom 16179",
-        "pergunta": "Como posso obter mais de 50 registros ao consultar a API Get Payables no sistema EVO?  \n",
-        "resposta": " Para obter mais de 50 registros ao consultar a API Get Payables no sistema EVO, é necessário configurar o valor 50 no campo \"Skip\" após receber os primeiros 50 registros. Isso fará com que a API pule os registros já retornados e traga os próximos.  \n",
-        "tags": [
-            "API",
-            " Get Payables",
-            " consulta",
-            " registros",
-            " EVO"
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/101154",
-        "squad": "W12\\Squad Payments"
-    },
-    {
-        "titulo": "Verificação: Agendamento não consta no perfil do aluno - Ticket Intercom 16201",
-        "pergunta": "Por que as sessões de um aluno não aparecem no perfil mesmo após o agendamento ter sido realizado?  \n",
-        "resposta": " As sessões do aluno não são exibidas no perfil quando o contrato do aluno é cancelado, pois no processo de cancelamento o sistema exclui as sessões do aluno referente à matrícula do contrato. No entanto, o histórico de participação do aluno ainda é mantido na grade.  \n",
-        "tags": [
-            "FAQ",
-            " perfil do aluno",
-            " sessões",
-            " cancelamento de contrato",
-            " histórico de participação."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/101299",
-        "squad": "W12\\Squad Activities"
-    },
-    {
-        "titulo": "Verificação: Wellhub X Aulas repetidas - Ticket Intercom 16225",
-        "pergunta": "Como corrigir a duplicidade de aulas na grade da Wellhub no sistema EVO?  \n",
-        "resposta": " Para corrigir a duplicidade de aulas na grade da Wellhub no sistema EVO, é necessário realizar a exclusão da grade via job no Jarvis e aguardar para que a grade seja atualizada no dia seguinte. Isso ocorre devido a possíveis mudanças internas na Gympass, que podem resultar na visualização de aulas duplicadas na grade, mas que não serão efetivamente duplicadas para os clientes. Além disso, é importante ressaltar que existe um bloqueio na API da Wellhub que impede a subida de duas ou mais aulas com o mesmo nome e mesmo professor.  \n",
-        "tags": [
-            "Wellhub",
-            " EVO",
-            " grade de aulas",
-            " duplicidade",
-            " exclusão",
-            " Jarvis",
-            " Gympass",
-            " API."
-        ],
-        "link": "https://dev.azure.com/w12/w12/_workitems/edit/101325",
-        "squad": "W12\\Squad Hardware"
-    }
+   {
+      "titulo":"Verificação: Gerencial x Produtos | 13555",
+      "pergunta":"Por que houve uma alteração no estoque de um produto para uma data anterior à venda?  \n",
+      "resposta":" A alteração no estoque de um produto para uma data anterior à venda pode ter ocorrido devido a uma ação manual realizada pelo suporte Evo. É importante verificar a movimentação no banco de dados para garantir a consistência das informações.  \n",
+      "tags":[
+         "Estoque",
+         " Movimentação",
+         " Suporte Evo",
+         " Banco de dados"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/91991",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"VERIFICAÇÃO LATAM | CONTRATO FAMILIA X DIVERGENCIA VALORES",
+      "pergunta":"Como funciona a configuração de desconto dos dependentes no contrato família?  \n",
+      "resposta":" A configuração de desconto dos dependentes no contrato família significa que todos os dependentes a partir do primeiro terão o desconto configurado. Para que apenas o primeiro dependente tenha 100% de desconto, é necessário inserir a configuração de Número 2 e % de desconto 0.  \n",
+      "tags":[
+         "Configuração de desconto",
+         " Contrato família",
+         " Dependententes",
+         " Desconto."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92179",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Clube de recompensas X Indicações",
+      "pergunta":"Por que um cliente indicado não pontuou no Clube de Recompensas?  \n",
+      "resposta":" O cliente indicado não pontuou no Clube de Recompensas porque a indicação foi feita quando ele já era cliente, e a regra de pontuação é válida apenas para indicações feitas enquanto o cliente ainda é prospect. É necessário validar a regra com o produto.  \n",
+      "tags":[
+         "Clube de Recompensas",
+         " Indicações",
+         " Pontuação",
+         " Regras."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92264",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"Verificação Latam: Conversão x Campos Obrigatórios | 13694",
+      "pergunta":"Como são definidos os campos obrigatórios no formulário de conversão do sistema EVO?  \n",
+      "resposta":" Os campos obrigatórios no formulário de conversão do sistema EVO são obtidos da aba \"Cliente\" na tela \"Configurações >> Campos obrigatórios\". Eles são exibidos de acordo com as configurações de cada academia.  \n",
+      "tags":[
+         "Configurações",
+         " Campos obrigatórios",
+         " Formulário de conversão."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92294",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Emissão de nota fiscal por competência X Crédito de venda | 13721",
+      "pergunta":"Como o sistema EVO calcula a emissão de notas fiscais por competência em relação aos recebimentos da venda?  \n",
+      "resposta":" O cálculo de notas para emissão por competência no sistema EVO considera o valor total da venda e a vigência do contrato, gerando parcelas de acordo com esses dados. Independentemente da forma de recebimento da venda, o comportamento do cálculo será o mesmo.  \n",
+      "tags":[
+         "Emissão de notas",
+         " Competência",
+         " Recebimentos",
+         " Vendas",
+         " Sistema EVO."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92517",
+      "squad":"W12\\Squad Accounting"
+   },
+   {
+      "titulo":"Verificação: Gerencial x Cobranças | 13743",
+      "pergunta":"Como identificar transações realizadas pelo sistema Evo que não aparecem na aba de recorrências?  \n",
+      "resposta":" Para identificar transações realizadas pelo sistema Evo que não aparecem na aba de recorrências, verifique se as transações foram feitas manualmente no sistema. A aba de recorrências mostra apenas transações automáticas feitas pelo job de recorrências.  \n",
+      "tags":[
+         "Identificação",
+         " Transações",
+         " Recorrências",
+         " Sistema Evo"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92584",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Boleto X Baixa automática - Ticket Intercom 13765",
+      "pergunta":"Como identificar se um boleto foi pago ou apenas agendado para pagamento no sistema?  \n",
+      "resposta":" Para identificar se um boleto foi pago ou apenas agendado para pagamento, verifique se o boleto consta como pago no PjBank. Caso o comprovante enviado seja de agendamento de pagamento, significa que o pagamento ainda não foi efetuado e será realizado na data agendada, desde que haja saldo na conta.  \n",
+      "tags":[
+         "Boleto",
+         " Pagamento",
+         " Agendamento",
+         " PjBank"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92606",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Alterar data de vencimento X Permissão | 13774",
+      "pergunta":"Como posso alterar a data de vencimento de um contrato no sistema?  \n",
+      "resposta":" Para alterar a data de vencimento de um contrato no sistema, é necessário que o funcionário possua a permissão de creditar dias. Ao alocar a data de cobrança para um dia posterior, como do dia 08 para o dia 10, é preciso adicionar dois dias ao contrato. Certifique-se de que a permissão necessária esteja aplicada antes de prosseguir com a alteração.  \n",
+      "tags":[
+         "Contrato",
+         " Data de vencimento",
+         " Permissão",
+         " Sistema ERP Evo."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92610",
+      "squad":"W12\\Squad Accounting"
+   },
+   {
+      "titulo":"Verificação: Link de pagamento X API | 13727",
+      "pergunta":"Como são realizados os disparos dos e-mails de recibo e ParQ no momento da venda no sistema EVO?  \n",
+      "resposta":" Os disparos dos e-mails de recibo e ParQ são realizados no momento da venda, gerando um saldo devedor e enviando por e-mail o recibo. Esse é o fluxo esperado no sistema EVO.  \n",
+      "tags":[
+         "EVO",
+         " e-mails",
+         " vendas",
+         " recibo",
+         " ParQ"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92619",
+      "squad":"W12\\Squad Member Experience"
+   },
+   {
+      "titulo":"Verificação: Venda Stone connect x não finalizada no Evo - Ticket Intercom 13785",
+      "pergunta":"Como proceder quando uma transação não é encontrada no Evo e na API da Stone Connect?  \n",
+      "resposta":" Nos casos em que não existe registro no Evo e na API da Stone Connect, significa que a transação foi feita fora do terminal integrado. Nesses casos, é necessário realizar o lançamento manual das informações no recebimento. Quando esse lançamento manual não é feito, as informações da transação não ficam registradas no Evo e na API, que só retorna transações feitas pelo terminal integrado Stone Connect.\n",
+      "tags":[
+         "Integração",
+         " Transação",
+         " Stone Connect",
+         " Terminal Integrado",
+         " Lançamento Manual."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92629",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Integração x Estacionamento | 13798",
+      "pergunta":"Como corrigir o erro de integração no Estacionamento no sistema EVO?  \n",
+      "resposta":" Certifique-se de que o arquivo /clienteevo.txt está presente no final da URL de integração. Caso contrário, adicione o arquivo e verifique se a integração é realizada corretamente.  \n",
+      "tags":[
+         "Integração",
+         " Estacionamento",
+         " URL",
+         " Erro",
+         " Correção"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92671",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Estacionamento x CPF inválido | 13806",
+      "pergunta":"Como posso garantir que o arquivo atualizado seja enviado ao servidor no sistema EVO?  \n",
+      "resposta":" Certifique-se de que o nome do arquivo esteja corretamente inserido na URL do FTP para que o arquivo atualizado seja enviado ao servidor.  \n",
+      "tags":[
+         "Atualização de arquivos",
+         " FTP",
+         " Servidor",
+         " Sistema EVO."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/92674",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Prescrição de Treinos x IOS X Acesso evo | 13850",
+      "pergunta":"Como acessar a prescrição de treinos no EVO Web em dispositivos mobile?  \n",
+      "resposta":" O EVO Web não foi totalmente otimizado para dispositivos mobile, o que pode impactar a experiência do usuário ao acessar a tela de prescrição de treinos. Recomendamos que o cliente utilize o EVO APP para uma melhor experiência nesse caso.  \n",
+      "tags":[
+         "EVO Web",
+         " dispositivos mobile",
+         " prescrição de treinos",
+         " EVO APP"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/93340",
+      "squad":"W12\\Squad Training and Health"
+   },
+   {
+      "titulo":"Verificação: Totalpass X Nenhum checkin Totalpass foi encontrado para esse aluno | 13924",
+      "pergunta":"Por que recebo a mensagem \"Nenhum check-in encontrado para esse aluno\"?  \n",
+      "resposta":" Essa mensagem ocorre quando não encontramos motivos para liberar o aluno, o que pode acontecer quando a academia valida manualmente o check-in ou quando o aluno não tem mais check-ins disponíveis para uso.  \n",
+      "tags":[
+         "Totalpass",
+         " check-in",
+         " validação",
+         " mensagem de erro"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94115",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Segmentação x Clientes | BioRitmo 2501-084766",
+      "pergunta":"Como posso visualizar todos os clientes no sistema EVO, mesmo sem a permissão de visualizar todas as carteiras?  \n",
+      "resposta":" Para visualizar todos os clientes no sistema EVO, mesmo sem a permissão de visualizar todas as carteiras, é necessário ter a permissão de visualizar todos os alunos. Dessa forma, o funcionário poderá ver todos os alunos, independentemente de ser consultor deles ou não.  \n",
+      "tags":[
+         "Permissões",
+         " Clientes",
+         " Sistema EVO"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94242",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"VERIFICAÇÃO | OPORTUNIDADES X CONVERTIDAS INDEVIDAMENTE",
+      "pergunta":"Por que alguns prospects foram convertidos indevidamente em vendas no sistema EVO?\n",
+      "resposta":" Alguns prospects foram convertidos indevidamente em vendas no sistema EVO porque fizeram o pagamento com cartão. No EVO, prospects não podem ter cartão, então a conversão é feita na venda para que ela seja realizada. Os prospects que não foram convertidos fizeram o pagamento por outros métodos.\n",
+      "tags":[
+         "Conversão",
+         " Prospect",
+         " Venda",
+         " Pagamento",
+         " EVO."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94466",
+      "squad":"W12\\Squad Member Experience"
+   },
+   {
+      "titulo":"Verificação: Venda x Forma de pagamento | 14000",
+      "pergunta":"Como verificar se a unidade possui o PIX PJ Bank ativo?  \n",
+      "resposta":" Para verificar se a unidade possui o PIX PJ Bank ativo, basta acessar as configurações da unidade no sistema e verificar as formas de pagamento disponíveis. Se o PIX PJ Bank estiver ativo, ele estará listado como uma das opções de forma de pagamento.  \n",
+      "tags":[
+         "Configurações",
+         " Unidade",
+         " PIX PJ Bank",
+         " Formas de pagamento"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94527",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Exercícios X Edição | 14078",
+      "pergunta":"Como posso adicionar um exercício novo em vez de editar um exercício existente no sistema?  \n",
+      "resposta":" No sistema, é possível adicionar um exercício novo ao invés de editar um exercício existente. Para isso, ao tentar editar um exercício já existente, é necessário adicionar um novo exercício, pois a substituição do exercício anterior não é permitida.  \n",
+      "tags":[
+         "Sistema ERP Evo",
+         " Adicionar exercício",
+         " Editar exercício",
+         " Substituição de exercício."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94546",
+      "squad":"W12\\Squad Training and Health"
+   },
+   {
+      "titulo":"Verificação: Treinos X Exportação indevida | 14092",
+      "pergunta":"Como posso verificar os funcionários que realizaram migrações no sistema EVO?  \n",
+      "resposta":" Você pode consultar os funcionários que realizaram migrações acessando o ADM Geral. Os funcionários responsáveis pela migração são da filial 0 do EVO, portanto, é necessário verificar com quem tem acesso ao ADM Geral para identificar quem realizou a migração. Lembre-se que não é possível desfazer uma migração feita pelos próprios funcionários.\n",
+      "tags":[
+         "Consulta",
+         " Funcionários",
+         " Migrações",
+         " ADM Geral."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94591",
+      "squad":"W12\\Squad Training and Health"
+   },
+   {
+      "titulo":"Verificação: Valor recebido x Valor do contrato | 14126",
+      "pergunta":"Como posso exibir o valor do contrato sem descontos no sistema?  \n",
+      "resposta":" Para exibir o valor do contrato sem descontos, utilize a tag [VALOR_CONTRATO_SEM_DESCONTO]. Dessa forma, apenas o valor original do contrato será informado.  \n",
+      "tags":[
+         "FAQ",
+         " sistema EVO",
+         " tag de contrato",
+         " descontos"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94729",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Atividades Inativas X Aplicativo | 14123",
+      "pergunta":"Por que algumas atividades inativas não aparecem no aplicativo?  \n",
+      "resposta":" As atividades inativas não aparecem no aplicativo porque, por estarem inativas, não devem ser visualizadas pelo aluno.  \n",
+      "tags":[
+         "Atividades inativas",
+         " Aplicativo",
+         " Visualização."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/94732",
+      "squad":"W12\\Squad FITI"
+   },
+   {
+      "titulo":"BT - [BT/FR][TODAS] - DÚVIDAS METRICAS DE RENOVAÇÃO (#1016501053)",
+      "pergunta":"Como funciona o filtro de cancelamento por troca de contrato na tela de cancelamentos do sistema?  \n",
+      "resposta":" O filtro de cancelamento por troca de contrato na tela de cancelamentos está relacionado ao motivo de cancelamento por troca de contrato ao selecionar Cancelar contrato. As trocas de contrato feitas ao entrar no contrato - trocar contrato não geram cancelamentos, elas expiram o contrato anterior e geram um novo contrato.  \n",
+      "tags":[
+         "Sistema EVO",
+         " Cancelamento",
+         " Troca de contrato",
+         " Filtro."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95209",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"VERIFICAÇÃO | FITCOINS X ERRO NA VENDA",
+      "pergunta":"Por que recebo um erro ao tentar realizar a venda do plano de 4 classes no sistema?  \n",
+      "resposta":" O erro ocorre porque o contrato 4 CLASES no clube de recompensa está inativo, fazendo com que o que é listado na venda não corresponda ao que está no clube. Para resolver, verifique se o contrato está ativo e se o cliente possui a quantidade necessária de fitcoins para a compra.  \n",
+      "tags":[
+         "FAQ",
+         " erro",
+         " venda",
+         " contrato inativo",
+         " fitcoins."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95281",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"Verificação: Grade X Quantidade de participantes | 17281",
+      "pergunta":"Por que a grade de quantidade de participantes fica zerada após a finalização da aula?  \n",
+      "resposta":" A grade de quantidade de participantes fica zerada após a finalização da aula porque o valor do modal é a contagem de quantas pessoas estavam dentro da aula antes de ser finalizada. Portanto, se a aula foi finalizada com 0 participantes, a quantidade será exibida como zero na atividade.  \n",
+      "tags":[
+         "Sistema ERP Evo",
+         " Quantidade de participantes",
+         " Finalização da aula"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95300",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"SOLICITAÇÃO | REGISTRO CHECK-IN X QR CODE",
+      "pergunta":"Como funciona o registro de check-in através do QR Code no sistema EVO?  \n",
+      "resposta":" O registro de check-in através do QR Code no sistema EVO é destinado exclusivamente para acesso à área do cliente. A opção de check-in no autoatendimento está desabilitada.  \n",
+      "tags":[
+         "Check-in",
+         " QR Code",
+         " EVO",
+         " Cliente",
+         " Autoatendimento"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95347",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"VERIFICAÇÃO | EXCLUSÃO DE EXERCÍCIOS X ERRO",
+      "pergunta":"Como posso excluir um exercício mesmo que ele esteja vinculado a treinos antigos?  \n",
+      "resposta":" Para excluir um exercício mesmo que ele esteja vinculado a treinos antigos, é necessário aguardar a implementação de uma nova alteração que permitirá essa ação. Atualmente, se o treino for excluído com algum exercício vinculado, será exibida uma mensagem de erro.  \n",
+      "tags":[
+         "Exclusão de exercício",
+         " Treinos antigos",
+         " Vínculo de exercícios"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95350",
+      "squad":"W12\\Squad Training and Health"
+   },
+   {
+      "titulo":"Verificação: Total Pass x Log | BioRitmo I2501-095204",
+      "pergunta":"Como funciona o novo sistema de check-in da TotalPass no Evo?  \n",
+      "resposta":" O funcionamento do novo sistema de check-in da TotalPass é semelhante ao do Gympass. O usuário precisa fazer o check-in, que será enviado para o webhook e validado automaticamente. Para clientes TotalPass, a busca do check-in no banco é feita de forma semelhante à do Gympass, por isso pode ocorrer o retorno de check-in TotalPass não encontrado. Esse é o funcionamento padrão da nova estrutura.\n",
+      "tags":[
+         "TotalPass",
+         " check-in",
+         " Gympass",
+         " webhook",
+         " estrutura."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95353",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Catraca: Teclado da catraca Xplite sem funcionar | 14322",
+      "pergunta":"Como posso verificar se o teclado da catraca Xplite está enviando informações para o sistema corretamente?  \n",
+      "resposta":" Para verificar se o teclado da catraca Xplite está enviando informações para o sistema corretamente, você pode realizar um teste utilizando o Free Serial Analyzer ou qualquer outro sniffer serial. Desta forma, será possível visualizar as informações que estão trafegando pela porta serial. Certifique-se também de verificar a ligação dos cabos para garantir que o TX e RX da serial estejam funcionando corretamente. Em caso de dúvidas, é recomendado procurar um técnico especializado para auxiliar na verificação.  \n",
+      "tags":[
+         "Catraca Xplite",
+         " teclado",
+         " sistema",
+         " informações",
+         " teste",
+         " porta serial",
+         " cabos",
+         " técnico especializado."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95363",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Falta justificada X permissões | 14293",
+      "pergunta":"Como funciona a justificativa de falta para alunos incluídos em atividades de forma avulsa no sistema?  \n",
+      "resposta":" Quando um aluno é incluído em uma atividade de forma avulsa, mesmo sem um contrato configurado com os mesmos grupos de atividades, o sistema permite inseri-lo na atividade. Ao dar falta para o aluno, a falta é automaticamente justificada, mesmo com a permissão desmarcada. A permissão apenas oculta a opção de justificar a falta para o colaborador. Se a permissão estivesse marcada, o colaborador teria a opção de justificar ou não a falta.  \n",
+      "tags":[
+         "Justificativa de falta",
+         " Alunos avulsos",
+         " Permissões."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95373",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"VERIFICAÇÃO | WELLHUB X CANCELAMENTO INDEVIDO",
+      "pergunta":"Por que o sistema permite o check-in de um cliente mesmo sem registro de entrada no período?  \n",
+      "resposta":" O sistema permite o check-in de um cliente mesmo sem registro de entrada no período, pois essa ação apenas habilita o cliente para entrar e ser liberado.  \n",
+      "tags":[
+         "Sistema EVO",
+         " Check-in",
+         " Registro de entrada",
+         " Cliente"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95544",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Oportunidades x Filtros | 14417",
+      "pergunta":"Qual a diferença entre as telas de segmentação e filtro de prospects e a tela Gerencial de Oportunidades no sistema EVO?  \n",
+      "resposta":" A diferença está no fato de que as telas de segmentação e filtro de prospects contam apenas os prospects não convertidos, enquanto a tela Gerencial de Oportunidades conta os prospects convertidos também, além de separar por origem.  \n",
+      "tags":[
+         "FAQ",
+         " EVO",
+         " Oportunidades",
+         " Filtros",
+         " Segmentação",
+         " Prospects"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/95892",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"Verificação: Controle de entradas X Fluxo de entradas | 14588",
+      "pergunta":"Como posso corrigir a ordem dos horários na tela de Gerencial > Controle de entradas > Dashboard > Fluxo de entradas no sistema EVO?  \n",
+      "resposta":" O sistema não permite a ordenação dos horários, apenas dos dias da semana. Essa limitação já foi abordada em outras tarefas, como a #77675.  \n",
+      "tags":[
+         "Sistema EVO",
+         " Controle de entradas",
+         " Dashboard",
+         " Fluxo de entradas",
+         " Ordenação."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/96385",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Habilitar venda X Financeiro > Adquirentes |",
+      "pergunta":"Como habilitar a opção \"Habilitar venda online\" em Financeiro > Adquirente no sistema EVO?  \n",
+      "resposta":" Para habilitar a opção \"Habilitar venda online\" em Financeiro > Adquirente, é necessário verificar se o cliente possui algum gateway ativo. Caso não haja nenhum gateway ativo, a opção não será exibida.  \n",
+      "tags":[
+         "Configuração",
+         " Vendas online",
+         " Adquirente",
+         " Gateway"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/96489",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Bloqueio x Pendência de assinatura | 14702",
+      "pergunta":"Por que um aluno não foi bloqueado mesmo com a configuração de Bloqueio de acesso por falta de assinatura de contrato?\n",
+      "resposta":" Um aluno pode não ter sido bloqueado devido à opção de Bloquear acesso para clientes inativos estar desabilitada, o sistema não tem motivos para bloqueá-lo, liberando assim todos os clientes, sendo o principal bloqueio baseado nos contratos.\n",
+      "tags":[
+         "Configuração",
+         " Bloqueio de acesso",
+         " Assinatura de contrato",
+         " Clientes inativos."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97223",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: DRE X Movimentação Financeira | 14703",
+      "pergunta":"Por que os valores apresentados nas telas DRE e Movimentação Financeira estão discrepantes?  \n",
+      "resposta":" A divergência nos relatórios ocorre devido à falta de configuração do grupo DRE em alguns centros de receitas. Recomenda-se que o cliente faça essa configuração e verifique novamente os valores. Em caso de dúvidas, estamos à disposição para auxiliar.  \n",
+      "tags":[
+         "Configuração",
+         " DRE",
+         " Movimentação Financeira",
+         " Centro de Receitas"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97225",
+      "squad":"W12\\Squad Accounting"
+   },
+   {
+      "titulo":"Verificação: Finalizar vendas x  Alterar data | 14705",
+      "pergunta":"Como posso alterar a data de vencimento de uma venda sem recebimento no sistema EVO?  \n",
+      "resposta":" Para alterar a data de vencimento de uma venda sem recebimento, é necessário possuir a permissão de \"Débito - alterar vencimento\". Verifique se o colaborador possui essa permissão para realizar a alteração desejada.  \n",
+      "tags":[
+         "Sistema EVO",
+         " Vendas",
+         " Permissões",
+         " Data de Vencimento."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97227",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Configurações x Importar vendas | 14757",
+      "pergunta":"Por que a opção \"Importar vendas\" não está disponível na base da academia modalidade EVO Black?  \n",
+      "resposta":" A opção \"Importar vendas\" está em fase beta de desenvolvimento.  \n",
+      "tags":[
+         "Importar vendas",
+         " EVO Black",
+         " beta",
+         " desenvolvimento"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97347",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Cobranças na recorrência x Financeiro cobranças - Ticket Intercom 14776",
+      "pergunta":"Por que o sistema não está retentando as cobranças de forma automática na recorrência?  \n",
+      "resposta":" O sistema não está retentando as cobranças de forma automática na recorrência porque os saldos devedores dos alunos em questão foram gerados manualmente, e o job de cobrança automática só funciona para saldos originais gerados automaticamente pelo sistema. Quando os saldos originais não são gerados pelo job, as tentativas automáticas de cobrança não são realizadas.  \n",
+      "tags":[
+         "Sistema ERP Evo",
+         " cobranças",
+         " recorrência",
+         " saldos devedores",
+         " cobrança automática."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97365",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Erro x Wellhub | 14758",
+      "pergunta":"Como resolver o erro \"Verifique se o gym-id está correto\" ao tentar habilitar a flag Booking na integração Wellhub da unidade?  \n",
+      "resposta":" Esse erro é retornado quando o Gym-Id do cliente está errado ou quando não está debaixo da nossa chave. Nesse caso, não conseguimos consultar o Gym-Id, pois não nos é permitido realizar a consulta. Portanto, a liberação depende da Wellhub.  \n",
+      "tags":[
+         "Integração",
+         " Erro",
+         " Gym-Id",
+         " Wellhub"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97444",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação:  FITI x Sessão x Reposição |  14802",
+      "pergunta":"Por que a aluna não consegue realizar o cancelamento da atividade \"Funcional\" mesmo com a configuração de falta justificada até 1h antes?  \n",
+      "resposta":" A aluna não consegue realizar o cancelamento da atividade \"Funcional\" agendada no dia 11/02 às 18h porque está tentando sair da aula antes dela ter início, o que interfere em uma configuração específica que está vazia nessa atividade.  \n",
+      "tags":[
+         "Configuração",
+         " Cancelamento",
+         " Atividade",
+         " Aluno",
+         " Início da Aula"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97612",
+      "squad":"W12\\Squad FITI"
+   },
+   {
+      "titulo":"Verificação: Gerencial X Cancelamento X Clientes - Ticket Intercom 14915",
+      "pergunta":"Por que há diferença nos números de cancelamentos entre o relatório \"Clientes\" do Adm geral e o relatório \"Gerencial > cancelamento\" das unidades no sistema EVO?  \n",
+      "resposta":" A diferença nos números de cancelamentos ocorre devido ao fato de que o DASHBOARD contabiliza contratos transferidos. Ao selecionar a opção de contratos transferidos na tela de cancelamentos, os valores serão iguais aos do dashboard. Ambas as telas trazem os mesmos contratos, sendo a única diferença que o dashboard considera transferência de contrato por padrão.  \n",
+      "tags":[
+         "EVO",
+         " relatórios",
+         " cancelamentos",
+         " DASHBOARD",
+         " contratos transferidos."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/97803",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Acesso liberado X Fora do horário permitido | 15037",
+      "pergunta":"Como funciona a configuração de tempo de tolerância de entrada e saída da turma/atividade no sistema EVO?  \n",
+      "resposta":" A configuração de tempo de tolerância de entrada e saída da turma/atividade no sistema EVO vale tanto para 30 minutos antes do início da atividade quanto para 30 minutos após o início da atividade. Portanto, no caso de um agendamento para a aula de 16:00 às 17:00, o horário permitido de entrada/saída na academia é de 15:30 às 17:30.  \n",
+      "tags":[
+         "Configuração",
+         " Tempo de tolerância",
+         " Entrada e saída",
+         " Sistema EVO."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98127",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação - Desconto X Permissão| Bioritmo // I2502-091785",
+      "pergunta":"Por que não consigo aplicar dois descontos recorrentes para um mesmo mês em um contrato no EVO?  \n",
+      "resposta":" No sistema EVO, não é possível aplicar dois descontos recorrentes para um mesmo mês em um contrato. Apenas um desconto recorrente pode ser aplicado a cada mês, não sendo permitida a aplicação de mais de um desconto recorrente no mesmo período.  \n",
+      "tags":[
+         "EVO",
+         " descontos recorrentes",
+         " contratos",
+         " permissões."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98189",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Fiti X Agendamento | 15073",
+      "pergunta":"Por que a aluna consegue agendar atividades fora do grupo vinculado ao seu contrato no sistema Fiti?  \n",
+      "resposta":" A aluna consegue agendar atividades fora do grupo vinculado ao seu contrato no sistema Fiti porque ela possui um serviço comprado que dá direito a realizar essa atividade específica. Certifique-se de verificar a configuração da atividade e a aba de atividades do cliente para entender melhor essa permissão.  \n",
+      "tags":[
+         "Sistema ERP Evo",
+         " Fiti",
+         " agendamento",
+         " contrato",
+         " atividades",
+         " configuração."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98281",
+      "squad":"W12\\Squad FITI"
+   },
+   {
+      "titulo":"Verificação: Acesso ao APP personalizado - Ticket Intercom 15118",
+      "pergunta":"Como configurar um aplicativo personalizado para uma rede/marca no sistema EVO?  \n",
+      "resposta":" Para configurar um aplicativo personalizado para uma rede/marca no sistema EVO, é necessário desvincular a unidade desejada para que seja feito o pedido e a configuração corretamente. Certifique-se de seguir as instruções da tarefa específica relacionada a essa solicitação.  \n",
+      "tags":[
+         "Configuração",
+         " Aplicativo personalizado",
+         " Rede/marca",
+         " Sistema EVO"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98328",
+      "squad":"W12\\Squad FITI"
+   },
+   {
+      "titulo":"Verificação: Total Pass x Página não encontrada | 14877",
+      "pergunta":"Como resolver o problema de página não encontrada ao tentar agendar atividades TotalPass no EVO?  \n",
+      "resposta":" Em casos de dificuldades de agendamento de atividades TotalPass no EVO, é necessário que a TotalPass faça a virada manual do lado deles para cada unidade que habilite o booking via API no sistema. Recomenda-se contatar diretamente a TotalPass para alinhamento.  \n",
+      "tags":[
+         "TotalPass",
+         " agendamento",
+         " EVO",
+         " virada manual",
+         " API."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98373",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Treino Prescrito X Aplicativo - Ticket Intercom 15159",
+      "pergunta":"Por que o treino prescrito para a aluna no aplicativo está diferente do treino Murilo 1 que foi prescrito atualmente?  \n",
+      "resposta":" O problema pode ter ocorrido devido ao ID do cliente logado não ser o mesmo do treino. Isso pode fazer com que o aplicativo mostre informações de outro perfil de aluno. Certifique-se de que o ID do cliente está correto para visualizar o treino prescrito corretamente.  \n",
+      "tags":[
+         "Treino",
+         " Aplicativo",
+         " ID do cliente",
+         " Perfil do aluno."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98396",
+      "squad":"W12\\Squad FITI"
+   },
+   {
+      "titulo":"Latam: Erro X Fitcoins | 15173",
+      "pergunta":"Por que os alunos não estão recebendo os fitcoins da regra de \"Asistencia diária\" mesmo tendo várias entradas registradas?\n",
+      "resposta":" Os alunos só receberão os fitcoins se todos os contratos ativos estiverem com a flag \"Permitir participação no Clube de Recompensa\" habilitada. Caso contrário, mesmo com várias entradas registradas, os fitcoins não serão recebidos.\n",
+      "tags":[
+         "Fitcoins",
+         " Contratos",
+         " Clube de Recompensa",
+         " Configuração."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98454",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"Latam | Verificação: Moeda X Dashboard | 15331",
+      "pergunta":"Por que o dashboard está exibindo a moeda como Dólar ao invés de Peso Uruguaio ($U)?  \n",
+      "resposta":" O problema ocorreu devido ao uso da tradução automática do navegador na página do EVO, o que causou desalinhamentos e traduções incorretas. O símbolo $ também é utilizado pelo peso uruguaio, o que pode ter gerado confusão. A orientação é para que o cliente pare de usar a tradução do navegador nas páginas do sistema.  \n",
+      "tags":[
+         "Dashboard",
+         " Moeda",
+         " Configuração",
+         " Tradução automática",
+         " EVO."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/98797",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Totem x Pix Sitef | 15352",
+      "pergunta":"Por que no autoatendimento do Totem X Pix Sitef só é apresentada a opção de Cartão de Crédito como forma de pagamento?  \n",
+      "resposta":" As formas de pagamentos da integração sitef são exibidas apenas no /totem. O pix sitef está sendo exibido corretamente, lembrando que a forma de pagamento pix não é exibida para contratos recorrentes.  \n",
+      "tags":[
+         "Integração Sitef",
+         " Autoatendimento",
+         " Formas de Pagamento",
+         " Pix Sitef."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99058",
+      "squad":"W12\\Squad Member Experience"
+   },
+   {
+      "titulo":"Verificação: Estorno Pendente x Perfil de Aluno | 15398",
+      "pergunta":"Como atualizar o status de uma transação para \"Aprovado\" no sistema EVO?  \n",
+      "resposta":" Para atualizar o status de uma transação para \"Aprovado\" no sistema EVO, basta clicar no botão de atualização disponível na tela da transação. Isso fará com que o status seja alterado para refletir a situação correta da transação, conforme as melhorias implementadas. Em caso de estorno pendente, a transação voltará para \"Aprovado\" após a atualização. Se necessário, é possível conferir a transação por TIID, NSU e Autorização para garantir a correta identificação.  \n",
+      "tags":[
+         "EVO",
+         " transação",
+         " status",
+         " atualização",
+         " estorno",
+         " Aprovado."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99070",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: CRM 2.0 AUTOMAÇÃO X CHATPRO - 15411",
+      "pergunta":"Como corrigir disparos automáticos de fluxos de outras filiais no CRM 2.0 - Automação?  \n",
+      "resposta":" Para corrigir disparos automáticos de fluxos de outras filiais no CRM 2.0 - Automação, você pode entrar na automação, excluir o fluxo e depois adicioná-lo novamente. Lembre-se de que o número de identificação do fluxo deve ser atualizado manualmente caso haja mudanças nas filiais, pois isso não é atualizado automaticamente.  \n",
+      "tags":[
+         "CRM 2.0",
+         " Automação",
+         " Fluxos",
+         " Filiais",
+         " Correção."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99093",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"Verificação - Erro na conexão API| Bioritmo // I2502-136144",
+      "pergunta":"Como posso verificar se o token de autenticação está sendo enviado corretamente na integração com a API da EVO?\n",
+      "resposta":" Para verificar se o token de autenticação está sendo enviado corretamente na integração com a API da EVO, você pode realizar um teste seguindo o padrão de curl abaixo:\ncurl -i --location 'https://evo-integracao-api.w12app.com.br/api/v1/employees?take=50&skip=0' \\\n-u \"usuario:senha\"\nCertifique-se de substituir \"usuario\" e \"senha\" pelos dados corretos de autenticação. \n",
+      "tags":[
+         "API",
+         " integração",
+         " autenticação",
+         " token",
+         " curl"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99263",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Agregadores X limite de agendamento | 15454",
+      "pergunta":"Por que foi possível realizar agendamentos com mais agregadores do que o limite configurado para a atividade de Treino Funcional no dia 26 de fevereiro?\n\n",
+      "resposta":" A atividade foi configurada corretamente na data e no horário, com o limite de ocupação estabelecido, no entanto, esse limite foi excedido. Este cenário não é o mesmo do chamado anteriormente analisado. Além disso, no dia da atividade, a configuração do limite de ocupação já estava devidamente realizada. Entende-se que se a ocupação no dia da atividade estava com a descrição de 3 agregadores, a quantidade não poderia ter sido excedida.\n",
+      "tags":[
+         "FAQ",
+         " limite de agregadores",
+         " configuração",
+         " atividade",
+         " agendamento."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99264",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Alteração data de inicio do contrato X Permissão | 15488",
+      "pergunta":"Por que a colaboradora conseguiu alterar a data de início do contrato mesmo sem ter a permissão \"Contrato - alterar data\" habilitada em sua permissão?  \n",
+      "resposta":" A permissão \"Contrato - alterar data\" bloqueia apenas a opção de alterar a data de início do contrato após a venda, mas ainda é possível escolher a data do contrato na hora da venda. A permissão de Venda Retroativa é para bloquear a escolha da data da venda, mas também não bloqueia a escolha da data do contrato. Portanto, a colaboradora pôde escolher a data do contrato na hora da venda, mesmo sem a permissão específica habilitada. \n",
+      "tags":[
+         "ERP",
+         " Evo",
+         " permissões",
+         " contrato",
+         " data de início."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99331",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Solicitação: Correção X Pix X Recorrente - Ticket Intercom 15504",
+      "pergunta":"Como posso corrigir a data de início de um contrato no sistema EVO?  \n",
+      "resposta":" Para corrigir a data de início de um contrato no sistema EVO, o cliente pode acessar os detalhes do contrato e realizar a alteração da data desejada.  \n",
+      "tags":[
+         "Contrato",
+         " Data de início",
+         " Sistema EVO",
+         " Alteração"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99364",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação: Evo App x Usuário inativo - Ticket Intercom 15375",
+      "pergunta":"Por que o usuário está recebendo a mensagem de \"usuário inativo\" ao tentar acessar o EVO app, mesmo estando ativo?  \n",
+      "resposta":" O problema ocorreu devido a um conflito de usuários, onde um colaborador tinha acesso a unidades diferentes, causando a mensagem de inatividade. Foi necessário ajustar as permissões para resolver a questão.  \n",
+      "tags":[
+         "EVO",
+         " acesso",
+         " usuário inativo",
+         " permissões",
+         " conflito de usuários"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99431",
+      "squad":"W12\\Squad FITI"
+   },
+   {
+      "titulo":"Verificação: Recebimento Duplicado - Ticket intercom 15367",
+      "pergunta":"Como proceder quando um recebimento de transferência bancária está duplicado no sistema?  \n",
+      "resposta":" Para corrigir um recebimento duplicado de transferência bancária, é necessário cancelar um dos recebimentos e em seguida cancelar o crédito gerado pelo recebimento excedente. Certifique-se de que os recebimentos possuem a mesma data de lançamento e verifique se houve um valor pago excedente que gerou o saldo credor. Em casos assim, é importante analisar se o usuário inseriu um valor a mais no recebimento na tela de vendas, o que pode resultar na duplicação do recebimento. Em nossa base de testes, não identificamos nenhum bug relacionado à duplicação de recebimentos por transferência bancária.  \n",
+      "tags":[
+         "Recebimento",
+         " Transferência Bancária",
+         " Duplicado",
+         " Correção",
+         " Cancelamento."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99451",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Site x Rodapé x Adm Geral | 15525",
+      "pergunta":"Como configurar o rodapé do site no EVO?  \n",
+      "resposta":" O rodapé da página principal da academia é configurado no EVO, dentro de Configurações -> Site. Já o rodapé que aparece nas demais páginas do site são as informações básicas da academia que são configuradas no EVO em Configurações -> Inicial. Lembre-se de que, para a unidade 0 (Adm Geral), essas informações não são configuradas, pois essa unidade é destinada apenas à administração da academia, não para captação de clientes e venda de produtos. Nas demais unidades, como a unidade 1, onde esses dados estão preenchidos, o rodapé aparece com as informações da unidade.  \n",
+      "tags":[
+         "Configuração",
+         " Rodapé",
+         " EVO",
+         " Unidades."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99585",
+      "squad":"W12\\Squad Member Experience"
+   },
+   {
+      "titulo":"Verificação: Chat com Suporte X Erro  - Ticket Intercom 13790",
+      "pergunta":"Como resolver o problema de piscar na janela do chat no sistema EVO?  \n",
+      "resposta":" Para resolver o problema de piscar na janela do chat, é importante verificar se há alguma extensão do navegador causando interferência. Além disso, limpar o cache do navegador e atualizá-lo para a versão mais recente pode ajudar a resolver esse problema. Certifique-se também de que não há nenhum vídeo anexado ao chat, pois isso pode causar instabilidade na exibição.  \n",
+      "tags":[
+         "Chat",
+         " Janela",
+         " Piscar",
+         " Navegador",
+         " Cache."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99601",
+      "squad":"W12\\Squad Tech"
+   },
+   {
+      "titulo":"Verificação: Data de inauguração X Cobrança no momento da venda  - Ticket Intercom 15624",
+      "pergunta":"Por que os alunos estão sendo cobrados no ato da venda, mesmo com a opção \"Permitir nova matrícula sem cobrança no ato da venda\" habilitada nas configurações iniciais?  \n",
+      "resposta":" A cobrança na data de inauguração só acontece se o contrato for Débito Recorrente Mensal S/ Fidelidade. Verifique se o contrato dos alunos em questão é do tipo Débito Recorrente c/ Vigência.  \n",
+      "tags":[
+         "Cobrança",
+         " Configurações",
+         " Contrato",
+         " Débito Recorrente"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99752",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Latam: Cadastro de cartão de débito X Transação online | 15636",
+      "pergunta":"Como cadastrar um cartão de débito para transações online no sistema EVO?  \n",
+      "resposta":" No sistema EVO, atualmente não é possível cadastrar um cartão de débito para transações online. Ao cadastrar um cartão, apenas a opção de crédito está disponível, o que significa que todas as cobranças serão processadas como crédito. Caso haja a necessidade de cadastrar cartões de débito, é possível conversar com o Product Owner para avaliar a possibilidade de utilizar a versão beta para cadastro de cartões de débito.  \n",
+      "tags":[
+         "EVO",
+         " cartão de débito",
+         " transações online",
+         " cadastro",
+         " crédito."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99792",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Contrato sem renovação | 15642",
+      "pergunta":"Por que o contrato não foi renovado devido à restrição de idade?  \n",
+      "resposta":" O contrato não foi renovado devido à restrição de idade porque os alunos tiveram suas datas de nascimento alteradas após a data de renovação do contrato, fazendo com que não se enquadrassem na faixa etária permitida.  \n",
+      "tags":[
+         "FAQ",
+         " contrato",
+         " renovação",
+         " restrição de idade",
+         " alunos"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99832",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação - Saldo devedor X Cancelamento automatico | Bioritmo // I2502-136636",
+      "pergunta":"Como funciona o processo de verificação de saldo devedor e cancelamento automático de contrato no sistema EVO?\n",
+      "resposta":" O sistema realiza a verificação do saldo devedor e o cancelamento automático do contrato com base em um job que analisa se houve pagamento nos últimos 3 meses (data configurável) para contratos renovados. Caso não haja pagamento até a próxima renovação, o contrato será cancelado. A opção de cancelamento automático não está configurada por tempo fixo, mas sim com base nos pagamentos realizados. \n",
+      "tags":[
+         "Sistema EVO",
+         " Saldo devedor",
+         " Cancelamento automático",
+         " Contrato",
+         " Pagamentos."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99842",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação LATAM: Controle de entrada X Cliente acessando mais vezes do que está configurado - Ticket Intercom 15671",
+      "pergunta":"Por que os alunos estão conseguindo acessar a unidade mais de uma vez no dia, mesmo com o plano configurado para 1 acesso diário?  \n",
+      "resposta":" Os alunos estão conseguindo acessar a unidade mais de uma vez no dia porque o controle de acesso por contrato está desabilitado.  \n",
+      "tags":[
+         "Controle de acesso",
+         " Configuração de plano",
+         " Acesso diário",
+         " Desabilitado."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99861",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Vendas X Recebimentos | 15653",
+      "pergunta":"Por que o total de vendas pode ser diferente do total de recebimentos no fechamento do caixa?  \n",
+      "resposta":" O total de vendas pode ser diferente do total de recebimentos devido a vendas ainda não recebidas e vendas parceladas. Além disso, ao realizar uma retirada do caixa, o valor é abatido do totalizador de recebimentos e somado no totalizador de saídas, o que pode gerar diferenças nos valores. É importante frisar com a academia que esses dois totalizadores podem não bater.  \n",
+      "tags":[
+         "FAQ",
+         " EVO",
+         " vendas",
+         " recebimentos",
+         " caixa",
+         " diferença."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99863",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Solicitação: Consulta ao banco de dados X Exclusão de cartão | 15683",
+      "pergunta":"Como funciona a permissão de exclusão de cartão no sistema EVO?  \n",
+      "resposta":" A permissão de exclusão de cartão no sistema EVO permite que o colaborador exclua o único cartão do cliente. Por exemplo, se o cliente tiver 2 cartões e um deles for excluído, os contratos ativos serão vinculados ao outro cartão. No entanto, ao tentar excluir o segundo cartão, o sistema irá barrar com a mensagem \"Este cartão está associado à contratos e recebimentos em recorrência. Para excluí-lo cadastre um novo cartão e faça a associação deste novo cartão ao contrato ativo do cliente.\"  \n",
+      "tags":[
+         "Sistema EVO",
+         " Permissão de exclusão",
+         " Cartão do cliente"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99884",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Solicitação: Análise em banco X Treinos excluídos - Ticket intercom 15690",
+      "pergunta":"Como posso verificar quem está excluindo os treinos no sistema?  \n",
+      "resposta":" Para verificar quem está excluindo os treinos, é possível consultar o log de treinos excluídos. Existe um menu \"Excluídos\" dentro do treino do cliente. Todos os registros de exclusão ficam registrados nesse tela, e é importante orientar o cliente a consultar essa informação quando necessário.  \n",
+      "tags":[
+         "Sistema EVO",
+         " Treinos excluídos",
+         " Log de exclusão."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99892",
+      "squad":"W12\\Squad Training and Health"
+   },
+   {
+      "titulo":"Verificação: Falha no recebimento X Stone Connect - Ticket intercom 15695",
+      "pergunta":"Como proceder quando a venda foi concluída pela maquininha Stone Connect, mas não foi registrada no sistema EVO, ocasionando a exclusão da venda?  \n",
+      "resposta":" Caso a venda tenha sido concluída apenas na maquininha e não tenha sido registrada no sistema EVO, é necessário verificar se o cliente fez o recebimento apenas na maquininha, pois não haverá registro no sistema. Recomenda-se sempre realizar a venda e o recebimento de forma integrada no sistema EVO para evitar exclusões indevidas.  \n",
+      "tags":[
+         "Stone Connect",
+         " venda",
+         " maquininha",
+         " sistema EVO",
+         " exclusão."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/99893",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Solicitação: Política de senhas (#1090054562)",
+      "pergunta":"Quais são as regras para a troca de senha no sistema EVO?  \n",
+      "resposta":" As regras para troca de senha no sistema EVO são: a senha atual precisa ter mais do que 6 dígitos, não pode conter dígitos sequenciais, deve conter números e letras, e não pode ser igual ao usuário.  \n",
+      "tags":[
+         "Política de senhas",
+         " Segurança da informação",
+         " EVO",
+         " Troca de senha"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100017",
+      "squad":"W12\\Squad Tech"
+   },
+   {
+      "titulo":"Solicitação: Atualização Retroativa x Fitcoins | 15716",
+      "pergunta":"Por que alguns alunos não estão tendo os fitcoins computados em seus perfis de forma retroativa?  \n",
+      "resposta":" Alguns alunos não estão tendo os fitcoins computados de forma retroativa porque nenhum contrato foi configurado com a flag que permite a participação no clube de recompensas. Portanto, é necessário configurar o contrato corretamente para que os clientes cumpram os requisitos e possam ganhar os fitcoins.  \n",
+      "tags":[
+         "Configuração",
+         " Fitcoins",
+         " Contrato",
+         " Clube de recompensas."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100050",
+      "squad":"W12\\Squad CRM"
+   },
+   {
+      "titulo":"Verificação: Erro ao alterar conta X PjBank | 15730",
+      "pergunta":"Por que o sistema apresenta a mensagem de erro \"Conta bancária não é válida\" ao tentar alterar a conta bancária vinculada à integração PjBank?  \n",
+      "resposta":" O sistema apresenta essa mensagem de erro porque a conta que o cliente deseja selecionar não está com o código do banco preenchido. Para realizar a troca com sucesso, é necessário preencher os campos de Conta, Código do banco e agência.  \n",
+      "tags":[
+         "Integração PjBank",
+         " Erro",
+         " Conta bancária",
+         " Código do banco",
+         " Agência."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100074",
+      "squad":"W12\\Squad Accounting"
+   },
+   {
+      "titulo":"Solicitação: Relatório de Notas X Emitidas por lançamento | 15789",
+      "pergunta":"Como posso gerar um relatório de notas emitidas nos meses de Novembro e Dezembro com base nos lançamentos que não tiveram cobrança efetiva?  \n",
+      "resposta":" Para gerar o relatório de notas emitidas nos meses de Novembro e Dezembro com base nos lançamentos que não tiveram cobrança efetiva, você pode acessar o menu de relatórios, selecionar a opção de notas emitidas e filtrar pelo período desejado. Certifique-se de que a configuração de cobrança esteja correta para cada lançamento. Em caso de dúvidas, estou à disposição para ajudar.  \n",
+      "tags":[
+         "Relatório",
+         " Notas",
+         " Lançamentos",
+         " Cobrança",
+         " Período."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100189",
+      "squad":"W12\\Squad Accounting"
+   },
+   {
+      "titulo":"Verificação: Matrícula x Grade| 15779",
+      "pergunta":"Como remover uma matrícula de uma atividade na grade de horários no sistema EVO?  \n",
+      "resposta":" Para remover uma matrícula de uma atividade na grade de horários no sistema EVO, é necessário acessar a grade de horários, selecionar a atividade desejada e utilizar a opção de exclusão disponível. Certifique-se de que não há participantes vinculados à atividade antes de tentar remover. Em caso de dúvidas, entre em contato conosco para mais orientações.  \n",
+      "tags":[
+         "Sistema EVO",
+         " matrícula",
+         " grade de horários",
+         " exclusão",
+         " atividade."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100194",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação: Motivo de bloqueio divergente | 15794",
+      "pergunta":"Como identificar o motivo de bloqueio divergente entre a liberação facial e o acesso via teclado na catraca?  \n",
+      "resposta":" Para identificar o motivo de bloqueio divergente entre a liberação facial e o acesso via teclado na catraca, é importante verificar as tentativas anteriores de acesso. Pode ter ocorrido uma tentativa de acesso por facial bloqueada, seguida por uma tentativa de acesso via teclado. Recomenda-se analisar o histórico de acessos para entender melhor a sequência de eventos que levaram ao bloqueio.  \n",
+      "tags":[
+         "FAQ",
+         " bloqueio",
+         " liberação facial",
+         " acesso via teclado",
+         " catraca."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100195",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Latam: Venda Online x Site | 7456",
+      "pergunta":"Por que ao realizar a compra de um plano através do site, a venda é concluída, deixando um plano ativo e gerando um saldo devedor no perfil do aluno?\n",
+      "resposta":" Ao finalizar a venda online com a Transbank, o cartão do cliente precisa ser cadastrado dentro do sistema deles. No site/totem, a venda é concluída sem cadastrar o cartão, gerando saldo devedor. O cliente é redirecionado ao sistema da Transbank para cadastrar o cartão. Se o cliente demorar mais de 5 minutos para finalizar o cadastro, o token gerado pode expirar, resultando em erro ao confirmar o cadastro do cartão.\n",
+      "tags":[
+         "Venda online",
+         " Transbank",
+         " cadastro de cartão",
+         " saldo devedor",
+         " erro de cadastro."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100275",
+      "squad":"W12\\Squad Member Experience"
+   },
+   {
+      "titulo":"Verificação: Controle de entradas x Bloqueio de entrada - Ticket Intercom 15889",
+      "pergunta":"Por que os alunos estão sendo bloqueados no Controle de Acesso mesmo passando na catraca correta do contrato configurado?  \n",
+      "resposta":" O bloqueio ocorre porque a passagem está sendo registrada em uma catraca que não está configurada no contrato. O cliente possui 4 catracas Intelbras com uso do multi catracas e a diferenciação da passagem é feita através do MAC do equipamento informado no comando3 da configuração da catraca. Nesse caso, é necessário revisar os seriais das catracas e informar o valor correto.  \n",
+      "tags":[
+         "Controle de Acesso",
+         " Catracas",
+         " Bloqueio",
+         " Configuração",
+         " Contrato."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100331",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"TÍTULO: PROGRAMA IMPRESSÃO DE TREINO SÓ RECONHECE POR CPF - 15910",
+      "pergunta":"Como posso fazer o programa de impressão de treinos reconhecer o ID do aluno em vez do CPF?  \n",
+      "resposta":" Para que o programa de impressão de treinos reconheça o ID do aluno em vez do CPF, é necessário desabilitar a configuração que faz com que ele olhe para o campo carteirinha. Recomendamos que o cliente passe a utilizar a versão web, pois a versão antiga está em processo de descontinuação.  \n",
+      "tags":[
+         "Impressão de treinos",
+         " ID do aluno",
+         " CPF",
+         " Configuração",
+         " Versão web."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100374",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Kapersky acusando nosso software de Vírus - Ticket Intercom 15933",
+      "pergunta":"Como posso resolver o problema de o Kaspersky acusar nosso software de vírus?  \n",
+      "resposta":" O Kaspersky pode acusar nosso software de vírus devido a comportamentos suspeitos, como desabilitar o firewall do Windows. Para resolver, é possível adicionar o programa na regra de exceções do antivírus. Recomendamos seguir as orientações do próprio Kaspersky para adicionar aplicativos às exclusões.  \n",
+      "tags":[
+         "Kaspersky",
+         " antivírus",
+         " falso positivo",
+         " regra de exceções",
+         " segurança."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100387",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: ALUNOS POR M² X Resumo Gerencial - Ticket Intercom 15928",
+      "pergunta":"Por que mesmo preenchendo a Metragem (m²) no sistema, a informação de alunos por M² não está sendo exibida no Resumo Gerencial?  \n",
+      "resposta":" A tela de resumo gerencial é atualizada no início de cada mês, portanto, caso o cliente altere esse dado, só verá o cálculo no início do próximo mês. Se o cliente preencheu a informação em uma data posterior, como por exemplo 2025-03-11, é necessário aguardar até o próximo mês para visualizar a atualização.  \n",
+      "tags":[
+         "FAQ",
+         " Resumo Gerencial",
+         " Metragem",
+         " Alunos por M²",
+         " Atualização."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100389",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Latam: Erro X Cadastro de cartões | 15994",
+      "pergunta":"Como resolver o erro \"No fue posible registrar la tarjeta\" ao cadastrar um cartão no sistema?  \n",
+      "resposta":" Verifique se as chaves de autenticação estão corretas, pois alterações nas chaves podem causar esse erro. Recomenda-se confirmar as chaves com a academia para evitar problemas de integração.  \n",
+      "tags":[
+         "Cadastro de cartões",
+         " Erro de integração",
+         " Chaves de autenticação."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100500",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Acesso x Erro Inesperado | 16001",
+      "pergunta":"Por que estou recebendo a mensagem de \"Acesso negado\" e \"Erro inesperado\" ao tentar acessar o sistema?  \n",
+      "resposta":" Essa mensagem pode ocorrer devido ao uso de um computador com Windows 7 que não recebe mais atualizações, e o navegador Chrome também não está sendo atualizado. Recomendamos que o cliente teste em um computador mais atualizado para verificar se consegue acessar o sistema corretamente. Após os testes, por favor, nos informe os resultados.  \n",
+      "tags":[
+         "Acesso negado",
+         " Erro inesperado",
+         " Windows 7",
+         " Atualização do navegador."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100503",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Dashboard X Aniversariantes | 16014",
+      "pergunta":"Por que os aniversariantes não estão aparecendo no dashboard da colaboradora?\n",
+      "resposta":" O problema ocorre devido a cadastros duplicados na tabela de funcionários. Os aniversariantes não apareciam porque estavam vinculados a um registro de ID incorreto. Para corrigir, é necessário transferir os alunos para o cadastro correto na tela de Carteiras. É importante evitar cadastros duplicados, pois isso pode causar problemas futuros. Recomenda-se conversar com o cliente e transferir a carteira dos funcionários para o cadastro correto, se necessário.\n",
+      "tags":[
+         "FAQ",
+         " Dashboard",
+         " Aniversariantes",
+         " Cadastros",
+         " Duplicados."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100527",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Treinos vencidos sendo impressos | 16009",
+      "pergunta":"Como evitar que treinos vencidos sejam impressos mesmo sem a opção de \"Manter acesso ao treino inativo mais recente para clientes sem treino prescrito\" habilitada em Configurações?  \n",
+      "resposta":" Para evitar que treinos vencidos sejam impressos, é importante verificar se o cliente está utilizando a nova impressão que faz parte do autoatendimento. As configurações relacionadas a essa funcionalidade podem ser encontradas em uma tela específica. Certifique-se de que as configurações estejam corretas para evitar a impressão de treinos vencidos.  \n",
+      "tags":[
+         "Configurações",
+         " Impressão de Treinos",
+         " Treinos Vencidos",
+         " Autoatendimento."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100529",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Integrações x API | 16051",
+      "pergunta":"Como posso garantir que as respostas obtidas via códigos API estejam retornando com as informações corretas?  \n",
+      "resposta":" Para garantir que as respostas obtidas via códigos API estejam corretas, é importante validar se os campos do contas a receber na API externa de integração estão configurados corretamente. Certifique-se de que o endpoint de recebimentos está sendo utilizado de forma adequada.  \n",
+      "tags":[
+         "API",
+         " integração",
+         " configuração",
+         " endpoint"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100716",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"BT - [LAGOS] Falha na Troca de contrato (#1094382210)",
+      "pergunta":"Como corrigir a situação em que o contrato antigo permanece ativo após a troca de contrato no sistema EVO?  \n",
+      "resposta":" Para corrigir a situação em que o contrato antigo permanece ativo após a troca de contrato, é necessário verificar e alterar o fim do contrato conforme as informações registradas no sistema. Certifique-se de que a data de término do contrato antigo foi ajustada corretamente.  \n",
+      "tags":[
+         "Contrato",
+         " Troca",
+         " EVO",
+         " Correção",
+         " Ativação."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100724",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Bloqueio de alunos Totalpass | 15993",
+      "pergunta":"Por que alunos com contrato Totalpass precisam fazer check-in para acessar, mesmo que antes não fosse necessário?  \n",
+      "resposta":" A necessidade da realização do check-in vem da Totalpass, onde é necessário que o CPF do aluno esteja preenchido no cadastro para que seja possível consultar se ele possui cadastro na Totalpass. Somente através do CPF é possível realizar o vínculo do check-in recebido e liberar corretamente o acesso na catraca. \n",
+      "tags":[
+         "Totalpass",
+         " contrato",
+         " check-in",
+         " CPF",
+         " cadastro."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100729",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Reposições não geradas - Ticket Intercom 16071",
+      "pergunta":"Como configurar a quantidade total de reposição no sistema para que seja gerada uma reposição de aula cancelada?  \n",
+      "resposta":" Para gerar uma reposição no sistema, é necessário configurar a quantidade total de reposição do contrato ou habilitar a opção de reposições ilimitadas. Certifique-se de que essa configuração esteja corretamente ajustada para que as reposições sejam geradas automaticamente.  \n",
+      "tags":[
+         "Configuração",
+         " Reposição",
+         " Aula cancelada",
+         " Sistema EVO"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100736",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação: Erro X Cobranças | 16098",
+      "pergunta":"Por que alguns alunos estão tendo as cobranças recusadas com os motivos \"Customer not found\" e \"Card not found\" mesmo tendo cartão cadastrado em seu perfil?  \n",
+      "resposta":" No dia 06/02/2025 houve uma alteração da conta Pagar.me, realizada pelo suporteevo, o que tornou inválidos todos os tokens de alunos e cartões cadastrados. Por esse motivo, as transações estão retornando como usuário/cartão não existente. Os cartões cadastrados a partir do dia 6 estão vinculados à nova conta, enquanto os cartões cadastrados antes dessa data estão vinculados à conta antiga e não será possível fazer a cobrança. Para resolver, é necessário recadastrar os cartões dos alunos na nova conta ou na conta antiga, dependendo da situação.  \n",
+      "tags":[
+         "Cobranças",
+         " Cartões",
+         " Conta Pagar.me",
+         " Recadastro",
+         " Transações"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100764",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Falta justificada X Fora do horário configurado - Ticket Intercom 16069",
+      "pergunta":"Como funciona a configuração \"Permitir sair da atividade até quanto tempo antes do início\" no sistema EVO?  \n",
+      "resposta":" A configuração \"Permitir sair da atividade até quanto tempo antes do início\" não valida falta ou falta justificada, ela valida a exclusão do aluno da atividade. Ela trabalha em conjunto com a permissão da grade \"Sessão - excluir cliente do agendamento\", habilitando ou desabilitando o botão \"Excluir\" (Ícone de lixeira). O sistema irá habilitar o botão \"Excluir\" se ambas estiverem habilitadas. Se a configuração estiver habilitada e a atividade ultrapassou o limite de saída, mas a permissão estiver desabilitada, o botão será ocultado.  \n",
+      "tags":[
+         "Configuração",
+         " Exclusão",
+         " Permissão",
+         " Sistema EVO."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100770",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação:  Valor do Contrato x Venda |15968",
+      "pergunta":"Por que o valor do contrato no sistema é diferente do valor apresentado na venda do plano?  \n",
+      "resposta":" O valor apresentado na venda do plano está incorreto devido à seleção do contrato errado. É necessário verificar se o contrato correto está sendo selecionado para que o valor seja exibido corretamente.  \n",
+      "tags":[
+         "Valor do contrato",
+         " Venda",
+         " Seleção de contrato",
+         " Valor incorreto."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100820",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Desconto  x Fiticoins | 15971",
+      "pergunta":"Como posso utilizar fitcoins para obter descontos em vendas no sistema EVO?  \n",
+      "resposta":" Atualmente, os fitcoins só podem ser trocados por recompensas e não podem ser utilizados para descontos em vendas.  \n",
+      "tags":[
+         "Fitcoins",
+         " Vendas",
+         " Descontos",
+         " Recompensas"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100855",
+      "squad":"W12\\Squad Member and Operations"
+   },
+   {
+      "titulo":"Verificação: Erro x Conciliação Stone  | 16161",
+      "pergunta":"Como funciona a data de baixa no sistema EVO em relação aos recebimentos antecipados?  \n",
+      "resposta":" A data de baixa no EVO é sempre a data de vencimento do recebimento. Mesmo em casos de antecipação de pagamento, a baixa será realizada na data original de vencimento da parcela. Portanto, mesmo que haja antecipação, a baixa será feita na data prevista inicialmente.  \n",
+      "tags":[
+         "EVO",
+         " baixa de recebimentos",
+         " antecipação de pagamento"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100861",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Utilizar check-in x Atividade na Grade | 16131",
+      "pergunta":"Por que a opção de check-in não está disponível na tela de Atividades na Grade para minha unidade?\n",
+      "resposta":" A opção de check-in na tela de Atividades na Grade só está disponível para faixas pagas. Unidades que utilizam uma faixa específica que não possui diversas funcionalidades habilitadas, incluindo o check-in, não terão acesso a essa funcionalidade.\n",
+      "tags":[
+         "Funcionalidade",
+         " Check-in",
+         " Atividades na Grade",
+         " Unidade",
+         " Faixas pagas"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100864",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação: Matrícula x Perfil de Aluno |  16154",
+      "pergunta":"Por que a aluna pode não ter sido inserida em aulas ao tentar matriculá-la em uma atividade no sistema EVO?  \n",
+      "resposta":"Essas aulas podem já estar finalizadas no momento da matrícula. Mesmo que as aulas finalizadas sejam reabertas, a aluna não será inserida automaticamente. Nesses casos, é necessário agendar uma sessão avulsa para a aluna.  \n",
+      "tags":[
+         "Matrícula",
+         " Aulas",
+         " Sistema EVO",
+         " Sessão Avulsa."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/100867",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação: Erro X Credenciamento Rede | 16173",
+      "pergunta":"Como corrigir o erro \"Não foi possível credenciar com a Mundipagg utilizando as informações preenchidas\" ao tentar homologar com a Rede?  \n",
+      "resposta":" Para corrigir esse problema, é necessário cadastrar as chaves da Pagar.me no Evo. Isso ocorre porque a verificação é realizada olhando se existe chaves cadastradas no Evo, ou seja, se a Pagar.me já está ativada no sistema. Caso não esteja, ele tenta criar o cadastro automaticamente, o que gera o erro mencionado.  \n",
+      "tags":[
+         "FAQ",
+         " Evo",
+         " Credenciamento",
+         " Mundipagg",
+         " Rede",
+         " Homologação."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/101075",
+      "squad":"W12\\Squad Accounting"
+   },
+   {
+      "titulo":"Verificação: Booking Reservado x Presença | 16194",
+      "pergunta":"Por que um aluno pode ter um Booking reservado, mas não constar com presença na grade da atividade?  \n",
+      "resposta":" A falta de presença de um aluno na grade da atividade, mesmo com o Booking reservado, pode ocorrer devido a remoções manuais realizadas pela recepção.  \n",
+      "tags":[
+         "Atendimento",
+         " Booking",
+         " Presença",
+         " Remoção manual."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/101151",
+      "squad":"W12\\Squad Hardware"
+   },
+   {
+      "titulo":"Verificação: Erro API - Ticket Intercom 16179",
+      "pergunta":"Como posso obter mais de 50 registros ao consultar a API Get Payables no sistema EVO?  \n",
+      "resposta":" Para obter mais de 50 registros ao consultar a API Get Payables no sistema EVO, é necessário configurar o valor 50 no campo \"Skip\" após receber os primeiros 50 registros. Isso fará com que a API pule os registros já retornados e traga os próximos.  \n",
+      "tags":[
+         "API",
+         " Get Payables",
+         " consulta",
+         " registros",
+         " EVO"
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/101154",
+      "squad":"W12\\Squad Payments"
+   },
+   {
+      "titulo":"Verificação: Agendamento não consta no perfil do aluno - Ticket Intercom 16201",
+      "pergunta":"Por que as sessões de um aluno não aparecem no perfil mesmo após o agendamento ter sido realizado?  \n",
+      "resposta":" As sessões do aluno não são exibidas no perfil quando o contrato do aluno é cancelado, pois no processo de cancelamento o sistema exclui as sessões do aluno referente à matrícula do contrato. No entanto, o histórico de participação do aluno ainda é mantido na grade.  \n",
+      "tags":[
+         "FAQ",
+         " perfil do aluno",
+         " sessões",
+         " cancelamento de contrato",
+         " histórico de participação."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/101299",
+      "squad":"W12\\Squad Activities"
+   },
+   {
+      "titulo":"Verificação: Wellhub X Aulas repetidas - Ticket Intercom 16225",
+      "pergunta":"Como corrigir a duplicidade de aulas na grade da Wellhub no sistema EVO?  \n",
+      "resposta":" Para corrigir a duplicidade de aulas na grade da Wellhub no sistema EVO, é necessário realizar a exclusão da grade via job no Jarvis e aguardar para que a grade seja atualizada no dia seguinte. Isso ocorre devido a possíveis mudanças internas na Gympass, que podem resultar na visualização de aulas duplicadas na grade, mas que não serão efetivamente duplicadas para os clientes. Além disso, é importante ressaltar que existe um bloqueio na API da Wellhub que impede a subida de duas ou mais aulas com o mesmo nome e mesmo professor.  \n",
+      "tags":[
+         "Wellhub",
+         " EVO",
+         " grade de aulas",
+         " duplicidade",
+         " exclusão",
+         " Jarvis",
+         " Gympass",
+         " API."
+      ],
+      "link":"https://dev.azure.com/w12/w12/_workitems/edit/101325",
+      "squad":"W12\\Squad Hardware"
+   }
 ]
